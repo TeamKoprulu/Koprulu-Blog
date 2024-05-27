@@ -1,0 +1,77 @@
+---
+layout: post
+title:  SC Evo Complete Extension 1.4 PTR patch notes
+description: Join us in testing out new balance changes
+date:   2024-05-24 00:21:35 +0600
+image:  '/images/EvoExtension1_4.png'
+tags:   [Extension, Update]
+featured: true
+---
+
+## Evo Complete Extension 1.4 PTR
+
+~~Intro Spiel~~
+
+A reminder that you can help us fund development by donating, your donations go toward funding development as well as making new models at a much faster rate.
+
+<a href="https://paypal.me/KopruluKat/"><img src="{{site.baseurl}}/images/blue.png" width="210" height="40"></a> 
+
+Or in our newly launched Patreon!
+
+<a href="https://www.patreon.com/TeamKopruluSC2"><img src="{{site.baseurl}}/images/becomeAPatronBanner.png" width="211" height="70"></a> 
+
+***
+
+![]({{site.baseurl}}/images/Divider_Extension.png)
+
+- Reduced Acceleration rate for all SC1 Workers from 4.1875 -> 3.75
+
+![]({{site.baseurl}}/images/Divider_Terran.png)
+
+- Increased Medic Healing Range from 2 -> 3
+- Increased Medic Movement Speed from 2.25 -> 2.45
+- Reduced Goliath's Charon Boosters Bonus range from 4 -> 3
+- Increased Medic's Restoration Range from 2 -> 6
+- Reduced Irradiate Delay between damage ticks from 0.5 -> 0.45
+- Reduced Irradiate Duration from 42 -> 46.9
+- Reduced Wraith Build Time from 45 -> 42
+- Reduced Siege Mode Research time from 60 -> 55
+
+***
+
+![]({{site.baseurl}}/images/Divider_Protoss.png)
+
+- Increased Corsair Weapon AoE from 1.95 -> 2.05
+- Increased Corsair Weapon Damage from 3.75 -> 4
+- Reduced Corsair Separation Radius from 0.75 -> 0.5
+- Removed Autocast from Create Scarab Ability
+- Increased Zealot Leg Enhancement Bonus from 1.35 -> 1.4
+- Removed Attack Speed multiplier from Leg Enhancements
+- Increased Zealot Shields from 70 -> 75
+- Reduced Scout Build time from 60 -> 50
+- Reduced Scout Mineral cost from 250 -> 200
+
+***
+
+![]({{site.baseurl}}/images/Divider_Zerg.png)
+
+- Reduced Hydralsik Grooved Spines Upgrade Research time from 170 -> 100
+- Sunken Colony Build time Reduced from 35 -> 18
+- Reduced Spore Colony Damage from 25 -> 20
+- Increased Mutalisk Life from 120 -> 130
+- Reduced Corsair Separation Radius from 0.6875 -> 0.4
+- Lurker Increased Life from 125 -> 135
+- Reduced Guardian Morph time from 38 -> 34
+- Reduced Devourer Morph time from 40 -> 35
+
+***
+
+### Bug fixes & changes
+
+- Corrected EMP Range from 10 -> 8 **(Core)**
+- Corrected Restoration Range from 2 -> 6 **(Core)**
+- Corrected Lockdown Range from 9 -> 8 **(Core)**
+
+*We've corrected a number of errors in the Core mod range values of these abilities, the Extension mod will remain unaffected but this change will apply to Legacy and Crossover*
+
+***
