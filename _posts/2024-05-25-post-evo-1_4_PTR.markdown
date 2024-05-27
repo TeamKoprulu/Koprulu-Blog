@@ -29,11 +29,11 @@ Or in our newly launched Patreon!
 ![]({{site.baseurl}}/images/Divider_Terran.png)
 
 - Increased Medic Healing Range from 2 -> 3
-- Increased Medic Movement Speed from 2.25 -> 2.45
-- Reduced Goliath's Charon Boosters Bonus range from 4 -> 3
+- Increased Medic Movement Speed from 2.25 -> 2.4492
 - Increased Medic's Restoration Range from 2 -> 6
+- Reduced Goliath's Charon Boosters Bonus range from 4 -> 3
 - Reduced Irradiate Delay between damage ticks from 0.5 -> 0.45
-- Reduced Irradiate Duration from 42 -> 46.9
+- Reduced Irradiate Duration from 42 -> 37.9
 - Reduced Wraith Build Time from 45 -> 42
 - Reduced Siege Mode Research time from 60 -> 55
 
@@ -41,7 +41,7 @@ Or in our newly launched Patreon!
 
 ![]({{site.baseurl}}/images/Divider_Protoss.png)
 
-- Increased Corsair Weapon AoE from 1.95 -> 2.05
+- Increased Corsair Weapon AoE from 3.125 -> 3.25
 - Increased Corsair Weapon Damage from 3.75 -> 4
 - Reduced Corsair Separation Radius from 0.75 -> 0.5
 - Removed Autocast from Create Scarab Ability
@@ -59,7 +59,7 @@ Or in our newly launched Patreon!
 - Sunken Colony Build time Reduced from 35 -> 18
 - Reduced Spore Colony Damage from 25 -> 20
 - Increased Mutalisk Life from 120 -> 130
-- Reduced Corsair Separation Radius from 0.6875 -> 0.4
+- Reduced Mutalisk Separation Radius from 0.6875 -> 0.4
 - Lurker Increased Life from 125 -> 135
 - Reduced Guardian Morph time from 38 -> 34
 - Reduced Devourer Morph time from 40 -> 35
