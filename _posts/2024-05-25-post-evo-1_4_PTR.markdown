@@ -42,7 +42,7 @@ Or in our newly launched Patreon!
 ![]({{site.baseurl}}/images/Divider_Protoss.png)
 
 - Increased Corsair Weapon AoE from 3.125 -> 3.25
-- Increased Corsair Weapon Damage from 3.75 -> 4
+- Increased Corsair Base Weapon Damage from 3.75 -> 6
 - Reduced Corsair Separation Radius from 0.75 -> 0.5
 - Removed Autocast from Create Scarab Ability
 - Increased Zealot Leg Enhancement Bonus from 1.35 -> 1.4
@@ -50,12 +50,13 @@ Or in our newly launched Patreon!
 - Increased Zealot Shields from 70 -> 75
 - Reduced Scout Build time from 60 -> 50
 - Reduced Scout Mineral cost from 250 -> 200
+- Increased Scout Vision Radius from 9 -> 10
 
 ***
 
 ![]({{site.baseurl}}/images/Divider_Zerg.png)
 
-- Reduced Hydralsik Grooved Spines Upgrade Research time from 170 -> 100
+- Reduced Hydralsik Grooved Spines Upgrade Research time from 170 -> 140
 - Sunken Colony Build time Reduced from 35 -> 18
 - Reduced Spore Colony Damage from 25 -> 20
 - Increased Mutalisk Life from 120 -> 130
