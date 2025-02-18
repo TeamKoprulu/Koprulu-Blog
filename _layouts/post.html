@@ -32,12 +32,24 @@ layout: default
           <h2 class="post__title">{{ page.title }}</h2>
 
           <div class="post__bottom">
-
-            <div class="post__author">
+<!-- unccomment below if reverting chatgpt found after  -->
+  <!--          <div class="post__author">
               <a href="{{ '/about/' | relative_url }}" aria-label="{{ site.data.settings.author.name }}"><img class="post__author-image"
                   src="{{ site.data.settings.author.avatar | relative_url }}" alt="{{ site.data.settings.author.name }}'s Picture"></a>
-            </div>
-
+            </div> -->
+<!-- ##################################################### -->          
+            
+<!-- start lmao chatgpt cause I don't know what I'm doing  -->
+{% assign author = site.authors | where: "name", page.author | first %}
+{% if author %}
+  <div class="post__author">
+    <img class="post__author-image" src="{{ author.avatar | relative_url }}">
+    <p class="post__author-name">{{ author.name }}</p>
+    <p class="post__author-position">{{ author.position }}</p>
+  </div>
+{% endif %}
+<!-- end lmao chatgpt cause I don't know what I'm doing  -->
+            
             <div class="post__bottom-meta">
               <a href="{{ '/about/' | relative_url }}" class="post__author-link">{{ site.data.settings.author.name }}</a>
               {% if page.tags.size >= 1 %}
