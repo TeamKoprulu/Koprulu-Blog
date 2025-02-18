@@ -51,16 +51,35 @@
 
                   <div class="article__bottom">
 
-                    {% if site.data.settings.author.avatar %}
+                    {% assign author = site.authors | where: "name", post.author | first %}
+               <!-- More GPT LMAO, Uncomment below if reverting.-->     
+               <!--     {% if site.data.settings.author.avatar %}
                     <div class="article__author">
                       <a href="{{ site.baseurl }}/about/" aria-label="{{ site.data.settings.author.name }}"><img class="article__author-image lazy" data-src="{{ site.baseurl }}{{ site.data.settings.author.avatar }}" alt="{{ site.data.settings.author.name }}'s Picture"></a>
                     </div>
-                    {% endif %}
-
-                    <div class="article__bottom-meta">
-                      {% if site.data.settings.author.name %}
-                        <a href="{{ site.baseurl }}/about/" class="article__author-link">{{ site.data.settings.author.name }}</a>
+                    {% endif %} -->
+              <!-- ############################################## -->
+                     <!-- Start of GPT -->
+                    {% if author %}
+                      <div class="article__author">
+                        <img class="article__author-image lazy" data-src="{{ author.avatar | relative_url }}" alt="{{ author.name }}'s Picture">
+                      </div>
                       {% endif %}
+                    
+                    <div class="article__bottom-meta">
+                      <!-- End of GPT -->
+                    
+                 <!-- More GPT LMAO, Uncomment below if reverting.-->        
+                  <!--    {% if site.data.settings.author.name %}
+                        <a href="{{ site.baseurl }}/about/" class="article__author-link">{{ site.data.settings.author.name }}</a>
+                      {% endif %}-->
+                 <!-- ############################################## -->
+                       <!-- Start of GPT -->
+                      {% if author %}
+                       <a href="#" class="article__author-link">{{ author.name }}</a>
+                        {% endif %}
+                      <!-- End of GPT -->
+                      
                       {% if post.tags.size >= 1 %}
                       <span>in</span>
                       <span class="article-tags">
