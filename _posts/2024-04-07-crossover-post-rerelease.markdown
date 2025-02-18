@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Kat
 title:  SC Evo Crossover Edition Release
 description: A re-release of the SC1 vs SC2 Extension now called Crossover Edition with some brand new mechanics and tons of rebalance updates
 date:   2024-04-07 15:01:35 +0000

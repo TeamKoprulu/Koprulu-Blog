@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Sprite
 title:  2024 Retrospective
 description: Team Koprulu's 2024 Retrospective
 date:   2024-12-31 04:00:00 +0600

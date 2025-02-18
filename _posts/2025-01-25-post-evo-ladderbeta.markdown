@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Avex
 title:  SC Evo Ladder Mode Beta
 description: Ladder Mode Details
 date:   2025-01-25 04:00:00 +0600

@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Kat
 title:  SC Evo Complete Extension 1.8 patch notes
 description: Balance and Legacy Patches
 date:   2024-08-29 11:13:35 +0600

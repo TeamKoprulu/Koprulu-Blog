@@ -1,5 +1,6 @@
 ---
 layout: post
+author: HyperOne
 title:  SC Evo Complete PTR 1.11 patch notes
 description: Art Update and Balance Changes
 date:   2024-10-30 11:13:35 +0600
