@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Hyper
+author: HyperONE
 title:  SC Evo Complete Extension 1.12.4 patch notes
 description: Balance Update
 date:   2025-01-31 12:45:00 -0800
