@@ -1,6 +1,6 @@
 ---
 layout: post
-author: HyperOne
+author: Hyper
 title:  SC Evo Complete Extension 1.11.4 patch notes
 description: New Defiler Mound Model!
 date:   2024-11-23 00:55:00 +0600
