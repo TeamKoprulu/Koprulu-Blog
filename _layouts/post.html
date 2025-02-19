@@ -43,7 +43,8 @@ layout: default
 {% assign author = site.authors | where: "name", page.author | first %}
 {% if author %}
   <div class="post__author">
-    <img class="post__author-image" src="{{ author.avatar | relative_url }}"><p class="post__author-name">{{ author.name }}</p>
+    <img class="post__author-image" src="{{ author.avatar | relative_url }}">
+    <p class="post__author-name">{{ author.name }}</p>
     <p class="post__author-position">{{ author.position }}</p>
   </div>
 {% endif %}
