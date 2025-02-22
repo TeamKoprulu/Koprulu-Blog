@@ -4,7 +4,7 @@ author: HyperONE
 title:  SC Evo Complete Extension 1.13 patch notes
 description: Balance Update
 date:   2025-02-22 10:00:00 -0600
-image:  '/images/Evo1_13.png'
+image:  '/images/EvoExtension1_13.png'
 tags:   [Extension, Balance, Legacy, New Model, New Map, Bugfixes]
 featured: true
 ---
@@ -139,7 +139,7 @@ As with the Defiler, these changes continue our efforts to capture the original 
 
 ![]({{site.baseurl}}/images/Divider_Protoss.png)
 
-### <img src="{{site.baseurl}}/images/btn-unit-protoss-scout q@scbw.png" width="50" height="50"> Scout
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-scout@scbw.png" width="50" height="50"> Scout
 - Increased anti-ground weapon attack range: 4 -> 5
 
 One of the historical hindrances to widespread adoption of Scout play is the ineffectiveness of its anti-ground weapon. This change makes it easier to use by making its range consistent with that of the Wraith.
