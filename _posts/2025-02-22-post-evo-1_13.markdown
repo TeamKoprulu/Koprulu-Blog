@@ -31,15 +31,16 @@ Before we proceed with the changes, we once again would like thank our generous 
 
 Our first new map port of 2025! Vermeer is a relatively straightforward 4-spawn map. Mind the central hills as the game progresses, as they will be key to lategame engagements, especially with the recently-implemented high-ground miss-chance.
 
+![](https://i.imgur.com/n4zoFln.jpeg)
+
 <div class="gallery-box">
     <div class="gallery">
-        <img src="https://i.imgur.com/n4zoFln.jpeg">
-        <img src="https://i.imgur.com/xHtDdjT.jpeg">
         <img src="https://i.imgur.com/ljO0AvE.png">
         <img src="https://i.imgur.com/cJeAuLO.png">
         <img src="https://i.imgur.com/CeJGKaQ.png">
         <img src="https://i.imgur.com/XO3Yl7k.png">
         <img src="https://i.imgur.com/sY3z7aK.png">
+        <img src="https://i.imgur.com/g9vktSY.png">
     </div>
 </div>
 

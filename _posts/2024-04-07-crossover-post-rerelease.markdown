@@ -10,21 +10,6 @@ tags:   [Crossover, Release, Bugfixes, New Feature]
 
 ## Evo Crossover Release 1.0
 
-![](https://i.imgur.com/n4zoFln.jpeg)
-
-![](https://i.imgur.com/xHtDdjT.jpeg)
-
-<div class="gallery-box">
-    <div class="gallery">
-        <img src="https://i.imgur.com/ljO0AvE.png">
-        <img src="https://i.imgur.com/cJeAuLO.png">
-        <img src="https://i.imgur.com/CeJGKaQ.png">
-        <img src="https://i.imgur.com/XO3Yl7k.png">
-        <img src="https://i.imgur.com/sY3z7aK.png">
-        <img src="https://i.imgur.com/g9vktSY.png">
-    </div>
-</div>
-
 Today we celebrate the release of the SC Evo Crossover Edition mod, this mod is a much more in-depth update of the old SC1 vs SC2 Extension mod including some new units, abilities and upgrades as well as a much better balanced AI.
 
 We want to start this new post on our new site by publishing the patchnotes for our upcoming Update 1.0 to the Crossover Edition as well as thank everyone who has made this project possible and all the love and passion we've seen from the Korean community that inspire this update. 
