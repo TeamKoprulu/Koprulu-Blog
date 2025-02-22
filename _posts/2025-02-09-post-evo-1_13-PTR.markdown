@@ -6,7 +6,6 @@ description: Balance Update
 date:   2025-02-09 12:00:00 -0600
 image:  '/images/EvoPTR1_13.png'
 tags:   [PTR, Extension, Balance]
-featured: true
 ---
 
 ## SC Evo Complete PTR 1.13 patch notes
