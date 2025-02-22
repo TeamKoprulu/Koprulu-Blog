@@ -54,7 +54,7 @@ A new skin inspired by Starcraft Remastered has been added for the BroodWar Terr
 
 This new skin can be found by clicking this button to open the skins menu.
 
-![]({{site.baseurl}}/images/tut-menubar.png.png)
+![]({{site.baseurl}}/images/tut-menubar.png)
 
 
 ### Balance Changes
