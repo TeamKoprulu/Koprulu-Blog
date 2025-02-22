@@ -27,6 +27,15 @@ Before we proceed with the changes, we once again would like thank our generous 
 
 ![]({{site.baseurl}}/images/Divider_Extension.png)
 
+A new skin inspired by Starcraft Remastered has been added for the BroodWar Terran: The Korhal Command Center, said to be an artisanal piece built by the Dominion's finest engineers made out of real gold.
+
+![]({{site.baseurl}}/images/modelpreview-korhalcc.png)
+
+This new skin can be found by clicking this button to open the skins menu.
+
+![]({{site.baseurl}}/images/tut-menubar.png.png)
+
+
 ### Balance Changes
 *Please note: All time values are provided in Normal Speed [Faster Speed]. Normal values provided are exact; Faster values are approximate.*
 
