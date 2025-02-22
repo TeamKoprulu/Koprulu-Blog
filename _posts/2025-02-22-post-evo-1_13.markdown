@@ -4,7 +4,7 @@ author: HyperONE
 title:  SC Evo Complete Extension 1.13 patch notes
 description: Balance Update
 date:   2025-02-22 10:00:00 -0600
-image:  '/images/Evo1_13.png'
+image:  '/images/EvoExtension1_13.png'
 tags:   [Extension, Balance, Legacy, New Model, Bugfixes]
 featured: true
 ---
