@@ -10,15 +10,18 @@ tags:   [Crossover, Release, Bugfixes, New Feature]
 
 ## Evo Crossover Release 1.0
 
+![](https://i.imgur.com/n4zoFln.jpeg)
+
+![](https://i.imgur.com/xHtDdjT.jpeg)
+
 <div class="gallery-box">
     <div class="gallery">
-        <img src="https://i.imgur.com/n4zoFln.jpeg">
-        <img src="https://i.imgur.com/xHtDdjT.jpeg">
         <img src="https://i.imgur.com/ljO0AvE.png">
         <img src="https://i.imgur.com/cJeAuLO.png">
         <img src="https://i.imgur.com/CeJGKaQ.png">
         <img src="https://i.imgur.com/XO3Yl7k.png">
         <img src="https://i.imgur.com/sY3z7aK.png">
+        <img src="https://i.imgur.com/g9vktSY.png">
     </div>
 </div>
 
