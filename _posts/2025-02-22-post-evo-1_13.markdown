@@ -5,7 +5,7 @@ title:  SC Evo Complete Extension 1.13 patch notes
 description: Balance Update
 date:   2025-02-22 10:00:00 -0600
 image:  '/images/Evo1_13.png'
-tags:   [Extension, Balance]
+tags:   [Extension, Balance, Legacy, New Model, Bugfixes]
 featured: true
 ---
 
@@ -102,7 +102,7 @@ This change continues our efforts to bring the BW races more in-line with their 
 - Decreased armor: 3 -> 2
 - Decreased attack period: 6.25 -> 5.8125 [4.46 -> 4.15]
 - Increased attack range: 6 -> 7
-- Adjusted Acid Spores attack speed reduction to match Brood War behavior. Now increases weapon cooldown linearly instead of exponentially.
+- Adjusted Acid Spores attack speed reduction to match Brood War behavior. Now increases weapon cooldown linearly instead of exponentially. (Core)
     - Old Formula: NewCooldown = BaseCooldown x [(8/7) ^ AcidSporesLevel]
     - New Formula: NewCooldown = BaseCooldown x [1 + ({1/8} x AcidSporesLevel)]
 
