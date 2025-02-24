@@ -9,6 +9,18 @@ tags:   [Extension, Balance, Legacy, New Model, New Map, Bugfixes]
 featured: true
 ---
 
+## SC Evo Complete Extension Update 1.13.1
+
+This minor update contains a few new animations and models:
+
+- Added new Reaver unit model
+![]({{site.baseurl}}/images/modelpreview-reaver.png)
+- Added new Protoss building model (it's a surprise!)
+- Updated Firebat animations
+- Updated Marine portrait textures
+
+***
+
 ## SC Evo Complete Extension Update 1.13
 
 Hello to all SC: Evo Complete fans,
