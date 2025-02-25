@@ -9,12 +9,62 @@ tags:   [Extension, Balance, Legacy, New Model, New Map, Bugfixes]
 featured: true
 ---
 
+## SC Evo Complete Extension Update 1.13.2
+
+This minor update contains balance changes and a few bug fixes.
+
+![]({{site.baseurl}}/images/Divider_Extension.png)
+
+### Balance Changes
+*Please note: All time values are provided in Normal Speed [Faster Speed]*
+
+![]({{site.baseurl}}/images/Divider_Terran.png)
+
+### <img src="{{site.baseurl}}/images/btn-unit-terran-ghost@scbw.png" width="50" height="50"> Ghost
+- Increased Lockdown energy cost: 75 -> 100
+- Decreased Ocular Implants research cost: 100/100 -> 50/50
+
+Despite repeated nerfs to Lockdown, the Ghost has remained a polarizingly strong unit. We think that the duration and range of Lockdown are now in a good place, so we are proceeding with reverting the energy cost of Lockdown to its original value of 100.
+
+![]({{site.baseurl}}/images/Divider_Zerg.png)
+
+### <img src="{{site.baseurl}}/images/btn-unit-zerg-infestedterran@scbw.png" width="50" height="50"> Infested Terran
+- Decreased build time: 33 -> 19 [23.6 -> 13.6]
+- Decreased cost: 100/50 -> 75/25
+- Decreased damage: 375 -> 307.5
+    - Damage vs. Armored: 500 -> 410
+
+Although Infested Terrans are strong when they are able to come into play, rarely can they be produced in meaningful numbers.
+
+Thanks to a recent update, the Queen is now able to infest StarCraft II Terran Command Centers, Orbital Commands, and Planetary Fortresses, but in practice, Queens often do not have this choice, as they do not come into play until the Terran has established three bases. The main, natural, and triangle third are centralized and difficult to break, so the ideal targets for Infest Command Center tend to be the Terran's outlying bases. Unfortuantely, these are often Planetary Fortresses, so not only are they difficult to assault, but once they are infested, they are incapable of lifting off and retreating to safety.
+
+To compensate for the inability of the Infested Planetary Fortress to retreat and the investment required to defend it, we are making the Infested Terran cheaper and faster to produce. In exchange, the damage output of the Infested Terran will be reduced. Although it still one-shots large enemy targets such as Thors and Colossi, the difference is meaningful in some scenarios, such as when deploying them against StarCraft II Terran production and tech structures. Infested Terrans will be able to destroy the Engineering Bay and Barracks in only 3 attacks, but will need 4 in order to destroy tankier structures, such as the Factory, Starport, Ghost Academy, and Command Center.
+
+![]({{site.baseurl}}/images/Divider_Protoss.png)
+
+- Decreased Robotics Facility build time: 65 -> 55 [46.4 -> 39.3]
+- Increased Robotics Support Bay build time: 30 -> 40 [21.4 -> 28.6]
+
+BW Protoss players often suffer from a lack of scouting information. To supplement previous changes to alleviate this, we are decreasing some of the build time on the Robotics Facility and moving it to the Robotics Support Bay. This allows for the faster production of the Observatory, allowing BW Protoss players to match the Observer scout timings of their StarCraft II counterparts without hastening access to Reaver production.
+
+### Bug Fixes and Changes
+
+- Adjusted the radius in which the Factory can spawn produced units: 2 -> 3
+- Reaver weapon now starts its cooldown upon firing the Scarab, instead of waiting for the Scarab to explode or dud
+- Reaver no longer automatically acquires and targets enemy units during unloading stun
+    - Manual target fire command can still be issued to the Reaver, but it will not begin turning towards the target until unloading stun wears off
+    - Reaver can still turn during unloading stun, if issued a move command
+- Fixed an issue where Reaver weapon cooldown was increased when unloading
+
+***
+
 ## SC Evo Complete Extension Update 1.13.1
 
 This minor update contains a few new animations and models:
 
 - Added new Reaver unit model
 ![]({{site.baseurl}}/images/modelpreview-reaver.png)
+
 - Added new Protoss building model (it's a surprise!)
 - Updated Firebat animations
 - Updated Marine portrait textures
