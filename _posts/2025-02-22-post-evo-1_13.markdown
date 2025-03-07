@@ -1,13 +1,73 @@
 ---
 layout: post
 author: HyperONE
-title:  SC Evo Complete Extension 1.13.2 patch notes
+title:  SC Evo Complete Extension 1.13.3 patch notes
 description: Balance Update
 date:   2025-02-22 06:00:00 -0600
 image:  '/images/EvoExtension1_13.png'
 tags:   [Extension, Balance, Legacy, New Model, New Map, Bugfixes]
 featured: true
 ---
+
+## SC Evo Complete Extension Update 1.13.3
+
+This minor update contains numerous balance changes.
+
+![]({{site.baseurl}}/images/Divider_Extension.png)
+
+### Balance Changes
+*Please note: All time values are provided in Normal Speed [Faster Speed]*
+
+![]({{site.baseurl}}/images/Divider_Terran.png)
+
+### <img src="{{site.baseurl}}/images/btn-unit-terran-valkyrie@scbw.png" width="50" height="50"> Valkyrie
+- Adjusted attack AoE damage zone radii:
+    - 100% zone: 1.5 -> 0.1562
+    - 50% zone: 2 -> 1.5625
+    - 25% zone: 2.5 -> 3.125
+- Increased delay period between attacks: 0.35 -> 0.58 [0.25 -> 0.41]
+    - (The Valkyrie's attack consists of 8 missiles, fired in pairs. This change adjusts the delay in firing each pair after the first.)
+- Increased base damage: 4.5 {+0.75/upgrade} -> 6 {+0.75/upgrade}
+    - Damage vs Armored: 6 {+1/upgrade} -> 8 {+1/upgrade}
+
+The Valkyrie has long been a sore thumb in terms of design. Often, a mere 4 Valkyries is enough to not merely discourage the opponent from training air units, but also utterly annihilate them should they be produced anyway, while suffering virtually no casualties. The onus tends to be placed on the opponent to split their units unreasonbly well.
+
+As part of our continued efforts to respect the original identities of Brood War units, we are adjusting the size of the Valkyrie's AoE damage zones to properly reflect their sizes in Brood War. In order to partially mitigate the resulting decrease in effective damage, especially the fact that the old 100% damage zone is roughly equal in size to the new 50% zone, the Valkyrie is also receiving increased base damage.
+
+### <img src="{{site.baseurl}}/images/btn-unit-terran-sciencevessel@scbw.png" width="50" height="50"> Science Vessel
+- Added Attribute: Massive
+
+To further adjust the strength of lategame Terran armies, the Science Vessel is receiving the Massive attribute. Science Vessels are often difficult to pick off as part of a larger army. The addition of the Massive attribute will help Thors, Corruptors, and Tempests more easily destroy them. In particular, four Tempests, which one-shot Brood War Goliaths and Siege Tanks, now also one-shot Science Vessels, eliminating the need to produce additional Tempests specifically to eliminate Science Vessels.
+
+![]({{site.baseurl}}/images/Divider_Zerg.png)
+
+### <img src="{{site.baseurl}}/images/btn-unit-zerg-mutalisk@scbw.png" width="50" height="50"> Mutalisk
+- Increased percentage of attack damage dealt to 2nd target: 33.3% -> 50%
+- Increased percentage of attack damage dealt to 3rd target: 11.1% -> 25%
+
+Spire play as Zerg seems to be underutilized. In order to promote the use of Mutalisks and reward players for controlling them well, particularly against StarCraft II Protoss (where they are virtually unseen), and do so without making them more durable (and consequently, more forgiving to use), we would like to experiment by granting them increased damage dealt to their secondary and tertiary targets.
+
+![]({{site.baseurl}}/images/Divider_Protoss.png)
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-archon@scbw.png" width="50" height="50"> Archon
+- Removed Attribute: Armored
+- Decreased Plasma Shields: 375 -> 350
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-darkarchon@scbw.png" width="50" height="50"> Dark Archon
+- Removed Attribute: Armored
+- Decreased Plasma Shields: 225 -> 200
+
+Archons and Dark Archons suffer from the fact that an overwhelmingly large number of attack types in StarCraft II deal bonus damage to Armored targets. Although we are not fond of breaking the paradigm that Large units in Brood War have the Armored tag in SC: Evo Complete, in this particular instance, we concluded there were no other feasible options. Therefore, to promote their use, the Archon and Dark Archon will no longer be considered Armored units. To partially compensate for their increased durability, their Plasma Shields have been reverted to their original Brood War values.
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-corsair.png" width="50" height="50"> Corsair
+- Decreased attack AoE damage zone radii:
+    - 100% zone: 1.0834 -> 0.1562
+    - 50% zone: 2.1667 -> 1.5625
+    - 25% zone: 3.25 -> 3.125
+
+After its buffs in version 1.12, we noticed that the Corsair was too effective at its anti-Mutalisk role. Due to this, as well as part of our efforts to respect the original identities of Brood War units, we are reverting the size of the Corsair's AoE damage zones to their original values. Since the Corsair already received a damage buff last patch, and due to our confidence that it will perform well enough without it, the Corsair is not receiving a similar damage buff this patch like the one given to the Valkyrie.
+
+***
 
 ## SC Evo Complete Extension Update 1.13.2
 
