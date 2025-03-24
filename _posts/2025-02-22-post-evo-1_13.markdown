@@ -1,7 +1,7 @@
 ---
 layout: post
 author: HyperONE
-title:  SC Evo Complete Extension 1.13.1 patch notes
+title:  SC Evo Complete Extension 1.13.3 patch notes
 description: Balance Update
 date:   2025-02-22 06:00:00 -0600
 image:  '/images/EvoExtension1_13.png'
@@ -9,12 +9,122 @@ tags:   [Extension, Balance, Legacy, New Model, New Map, Bugfixes]
 featured: true
 ---
 
+## SC Evo Complete Extension Update 1.13.3
+
+This minor update contains numerous balance changes.
+
+![]({{site.baseurl}}/images/Divider_Extension.png)
+
+### Balance Changes
+*Please note: All time values are provided in Normal Speed [Faster Speed]*
+
+![]({{site.baseurl}}/images/Divider_Terran.png)
+
+### <img src="{{site.baseurl}}/images/btn-unit-terran-valkyrie@scbw.png" width="50" height="50"> Valkyrie
+- Adjusted attack AoE damage zone radii:
+    - 100% zone: 1.5 -> 0.1562
+    - 50% zone: 2 -> 1.5625
+    - 25% zone: 2.5 -> 3.125
+- Increased delay period between attacks: 0.35 -> 0.58 [0.25 -> 0.41]
+    - (The Valkyrie's attack consists of 8 missiles, fired in pairs. This change adjusts the delay in firing each pair after the first.)
+- Increased base damage: 4.5 {+0.75/upgrade} -> 6 {+0.75/upgrade}
+    - Damage vs Armored: 6 {+1/upgrade} -> 8 {+1/upgrade}
+
+The Valkyrie has long been a sore thumb in terms of design. Often, a mere 4 Valkyries is enough to not merely discourage the opponent from training air units, but also utterly annihilate them should they be produced anyway, while suffering virtually no casualties. The onus tends to be placed on the opponent to split their units unreasonbly well.
+
+As part of our continued efforts to respect the original identities of Brood War units, we are adjusting the size of the Valkyrie's AoE damage zones to properly reflect their sizes in Brood War. In order to partially mitigate the resulting decrease in effective damage, especially the fact that the old 100% damage zone is roughly equal in size to the new 50% zone, the Valkyrie is also receiving increased base damage.
+
+### <img src="{{site.baseurl}}/images/btn-unit-terran-sciencevessel@scbw.png" width="50" height="50"> Science Vessel
+- Added Attribute: Massive
+
+To further adjust the strength of lategame Terran armies, the Science Vessel is receiving the Massive attribute. Science Vessels are often difficult to pick off as part of a larger army. The addition of the Massive attribute will help Thors, Corruptors, and Tempests more easily destroy them. In particular, four Tempests, which one-shot Brood War Goliaths and Siege Tanks, now also one-shot Science Vessels, eliminating the need to produce additional Tempests specifically to eliminate Science Vessels.
+
+![]({{site.baseurl}}/images/Divider_Zerg.png)
+
+### <img src="{{site.baseurl}}/images/btn-unit-zerg-mutalisk@scbw.png" width="50" height="50"> Mutalisk
+- Increased percentage of attack damage dealt to 2nd target: 33.3% -> 50%
+- Increased percentage of attack damage dealt to 3rd target: 11.1% -> 25%
+
+Spire play as Zerg seems to be underutilized. In order to promote the use of Mutalisks and reward players for controlling them well, particularly against StarCraft II Protoss (where they are virtually unseen), and do so without making them more durable (and consequently, more forgiving to use), we would like to experiment by granting them increased damage dealt to their secondary and tertiary targets.
+
+![]({{site.baseurl}}/images/Divider_Protoss.png)
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-archon@scbw.png" width="50" height="50"> Archon
+- Removed Attribute: Armored
+- Decreased Plasma Shields: 375 -> 350
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-darkarchon@scbw.png" width="50" height="50"> Dark Archon
+- Removed Attribute: Armored
+- Decreased Plasma Shields: 225 -> 200
+
+Archons and Dark Archons suffer from the fact that an overwhelmingly large number of attack types in StarCraft II deal bonus damage to Armored targets. Although we are not fond of breaking the paradigm that Large units in Brood War have the Armored tag in SC: Evo Complete, in this particular instance, we concluded there were no other feasible options. Therefore, to promote their use, the Archon and Dark Archon will no longer be considered Armored units. To partially compensate for their increased durability, their Plasma Shields have been reverted to their original Brood War values.
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-corsair.png" width="50" height="50"> Corsair
+- Decreased attack AoE damage zone radii:
+    - 100% zone: 1.0834 -> 0.1562
+    - 50% zone: 2.1667 -> 1.5625
+    - 25% zone: 3.25 -> 3.125
+
+After its buffs in version 1.12, we noticed that the Corsair was too effective at its anti-Mutalisk role. Due to this, as well as part of our efforts to respect the original identities of Brood War units, we are reverting the size of the Corsair's AoE damage zones to their original values. Since the Corsair already received a damage buff last patch, and due to our confidence that it will perform well enough without it, the Corsair is not receiving a similar damage buff this patch like the one given to the Valkyrie.
+
+***
+
+## SC Evo Complete Extension Update 1.13.2
+
+This minor update contains balance changes and a few bug fixes.
+
+![]({{site.baseurl}}/images/Divider_Extension.png)
+
+### Balance Changes
+*Please note: All time values are provided in Normal Speed [Faster Speed]*
+
+![]({{site.baseurl}}/images/Divider_Terran.png)
+
+### <img src="{{site.baseurl}}/images/btn-unit-terran-ghost@scbw.png" width="50" height="50"> Ghost
+- Increased Lockdown energy cost: 75 -> 100
+- Decreased Ocular Implants research cost: 100/100 -> 50/50
+
+Despite repeated nerfs to Lockdown, the Ghost has remained a polarizingly strong unit. We think that the duration and range of Lockdown are now in a good place, so we are proceeding with reverting the energy cost of Lockdown to its original value of 100.
+
+![]({{site.baseurl}}/images/Divider_Zerg.png)
+
+### <img src="{{site.baseurl}}/images/btn-unit-zerg-infestedterran@scbw.png" width="50" height="50"> Infested Terran
+- Decreased build time: 33 -> 19 [23.6 -> 13.6]
+- Decreased cost: 100/50 -> 75/25
+- Decreased damage: 375 -> 307.5
+    - Damage vs. Armored: 500 -> 410
+
+Although Infested Terrans are strong when they are able to come into play, rarely can they be produced in meaningful numbers.
+
+Thanks to a recent update, the Queen is now able to infest StarCraft II Terran Command Centers, Orbital Commands, and Planetary Fortresses, but in practice, Queens often do not have this choice, as they do not come into play until the Terran has established three bases. The main, natural, and triangle third are centralized and difficult to break, so the ideal targets for Infest Command Center tend to be the Terran's outlying bases. Unfortuantely, these are often Planetary Fortresses, so not only are they difficult to assault, but once they are infested, they are incapable of lifting off and retreating to safety.
+
+To compensate for the inability of the Infested Planetary Fortress to retreat and the investment required to defend it, we are making the Infested Terran cheaper and faster to produce. In exchange, the damage output of the Infested Terran will be reduced. Although it still one-shots large enemy targets such as Thors and Colossi, the difference is meaningful in some scenarios, such as when deploying them against StarCraft II Terran production and tech structures. Infested Terrans will be able to destroy the Engineering Bay and Barracks in only 3 attacks, but will need 4 in order to destroy tankier structures, such as the Factory, Starport, Ghost Academy, and Command Center.
+
+![]({{site.baseurl}}/images/Divider_Protoss.png)
+
+- Decreased Robotics Facility build time: 65 -> 55 [46.4 -> 39.3]
+- Increased Robotics Support Bay build time: 30 -> 40 [21.4 -> 28.6]
+
+BW Protoss players often suffer from a lack of scouting information. To supplement previous changes to alleviate this, we are decreasing some of the build time on the Robotics Facility and moving it to the Robotics Support Bay. This allows for the faster production of the Observatory, allowing BW Protoss players to match the Observer scout timings of their StarCraft II counterparts without hastening access to Reaver production.
+
+### Bug Fixes and Changes
+
+- Adjusted the radius in which the Factory can spawn produced units: 2 -> 3
+- Reaver weapon now starts its cooldown upon firing the Scarab, instead of waiting for the Scarab to explode or dud
+- Reaver no longer automatically acquires and targets enemy units during unloading stun
+    - Manual target fire command can still be issued to the Reaver, but it will not begin turning towards the target until unloading stun wears off
+    - Reaver can still turn during unloading stun, if issued a move command
+- Fixed an issue where Reaver weapon cooldown was increased when unloading
+
+***
+
 ## SC Evo Complete Extension Update 1.13.1
 
 This minor update contains a few new animations and models:
 
 - Added new Reaver unit model
 ![]({{site.baseurl}}/images/modelpreview-reaver.png)
+
 - Added new Protoss building model (it's a surprise!)
 - Updated Firebat animations
 - Updated Marine portrait textures
