@@ -1,0 +1,145 @@
+---
+layout: post
+author: HyperONE
+title:  SC Evo Complete Extension 1.14 patch notes
+description: Balance Update
+date:   2025-03-24 00:00:00 -0600
+image:  '/images/EvoExtension1_14.png'
+tags:   [Extension, Balance, New Model, Bugfixes]
+featured: true
+---
+
+## SC Evo Complete Extension Update 1.14
+
+Hello to all SC: Evo Complete fans,
+
+This update brings a new set of balance changes, a new model, and a new locale for esES (Spanish (Spain)).
+
+***
+
+Before we proceed with the details of this update, we once again would like thank our generous sponsors to enabling our work here. If you would like to support us, you can give us a one-time donation on PayPal or a recurring contribution on Patreon:
+
+<a href="https://paypal.me/KopruluKat/"><img src="{{site.baseurl}}/images/blue.png" width="210" height="40"></a> 
+
+<a href="https://www.patreon.com/TeamKopruluSC2"><img src="{{site.baseurl}}/images/becomeAPatronBanner.png" width="211" height="70"></a>
+
+***
+
+![]({{site.baseurl}}/images/Divider_Extension.png)
+
+### New Model
+
+A brand-new model for the Extractor has been added, thanks to Robert Rose. 
+
+![]({{site.baseurl}}/images/modelpreview-extractor.png)
+
+### New Map Previews
+
+Three new maps are in the pipeline and will be released soon! We have included previews of the first two maps. Do you recognize them?
+
+![]({{site.baseurl}}/images/teaser-maps-1.14.png)
+
+### New Locale
+
+A new locale, esES, is available for European Spanish speakers.
+
+### Balance Changes
+*Please note: All time values are provided in Normal Speed [Faster Speed]. Normal values provided are exact; Faster values are approximate.*
+
+**Goals for this patch:**
+- Promote balance across different maps by forcing a consistent economy
+- Mitigate the durability and resilience of BW Terran Biological armies
+- Enhance BW Protoss early defenses
+- Amplify combat effectiveness of SC2 Protoss units
+
+### General Changes
+- All mineral nodes and Vespene geysers on all maps (which are not set to custom values) will be initialized to 1500 minerals and 2500 Vespene gas
+
+This change is one the balance team has been discussing for a long time.
+
+When the Legacy of the Void economy was first unveiled, Blizzard stated that the intent of reducing resource count at each base by 10% and forcing half of all mineral fields to mine out twice as quickly was to encourage more expansions. Unfortunately, rather than rewarding a higher base count, this change simply punished players for not expanding at a breakneck pace, and obsoleted a number of midgame strategies.
+
+In order to bring back those strategies, as well as ensure that build variety is not artificially constrained by maps having fundamentally different economies, we are enforcing a consistent economy across all maps when loaded with SC: Evo Complete. Mineral nodes and Vespene geysers will have values consistent with what they were in Heart of the Swarm. This will not affect mineral nodes and Vespene geysers with modified values, meaning map mechanics like mineral walls will be unaffected.
+
+- Percentage of anti-Light damage dealt to Plasma Shields by Concussive attacks decreased: 80% -> 75%
+- Percentage of anti-Armored damage dealt to Plasma Shields by Explosive attacks decreased: 80% -> 75%
+
+StarCraft 2 Protoss units struggle somewhat in certain scenarios. For example, Stalkers are slightly fragile against Vultures (the latter of which do not easily die due to their lack of Armored typing), and mass BW Hydralisks can often overwhelm SC2 Zealots where we believe Lurkers should be required to win the engagement. We believe this slight decrease in the effectiveness of Concussive and Explosive attacks against Plasma Shields will sufficiently mitigate the current combat power of these Brood War units.
+
+![]({{site.baseurl}}/images/Divider_Terran.png)
+
+### <img src="{{site.baseurl}}/images/btn-unit-terran-medic.png" width="50" height="50"> Medic
+- Decreased HP healed per Energy: 2.56 -> 2.25
+    - The initial value of 2.56 was misreported in previous patch notes as 2.50.
+    - (This is implemented as increased Energy drained per HP healed [Drain Vital Cost Factor]: 0.39 -> 0.4443)
+- Decreased HP healed per second [Recharge Vital Rate]: 12 -> 9 [16.8 -> 12.6]
+
+Recently, Terran players have demonstrated that the Medic is an incredibly versatile unit. Not only does it have a powerful Heal, but its Restoration and Optic Flare have a variety of niche but powerful applications.
+
+While we are excited to see the Medic find its place in the metagame, we do believe balance is negatively affected by a slight overabundance of Medic energy. Moreover, Heal restores HP at an excessively fast rate, allowing Stimpack Marines to survive what should be lethal scenarios, such as 360-degree worker surrounds, Zergling surrounds, and even standing in one full Psionic Storm. This leaves many army compositions, especially in the earlygame, unable to kill Marines by overpowering Heal, and they must instead try to gradually drain Medic Energy completely.
+
+To prevent Marines from simply standing and tanking incoming damage, we are reducing the speed at which Heal restores HP. (Coincidentally, the new value matches that of the Medivac.) We are also making Heal less Energy-efficient to reduce the overall support potential provided by each Medic.
+
+### <img src="{{site.baseurl}}/images/btn-unit-terran-battlecruiser@scbw.png" width="50" height="50"> Battlecruiser
+- Decreased HP: 650 -> 600
+- Decreased attack period: 1.175 -> 1.125 [0.84 -> 0.80]
+
+Based on its performance in tournaments, we feel the Battlecruiser is very close to being in a good spot. These changes help to bring the Battlecruiser's bulk-to-cost ratio more in-line with that of other capital ships. This makes it slightly easier to one-shot with long-range anti-capital-ship units like Vikings and Corruptors while roughly maintaining its overall power level in sustained engagements.
+
+![]({{site.baseurl}}/images/Divider_Zerg.png)
+
+### <img src="{{site.baseurl}}/images/btn-unit-zerg-defiler@scbw.png" width="50" height="50"> Defiler
+- Increased Plague effect radius: 2.2 -> 2.25
+
+This change was made to make the effect more accurate to its relative size in Brood War.
+
+### <img src="{{site.baseurl}}/images/btn-unit-zerg-queen@scbw.png" width="50" height="50"> Queen
+- Decreased Ensnare research cost: 100/100 -> 50/50
+- Increased Ensnare cast range: 9 -> 10
+- Increased Ensnare effect radius: 2.2 -> 2.25
+
+In a previous patch, the Queen had Ensnare locked behind research at the Queen's Nest, in order to restore this similarity to Brood War.
+
+Ensnare was already not the easiest ability to use, as StarCraft 2's UI improvements make it easier to dodge skillshot abilities like Ensnare by predicting or reacting to them. This decreases its effective range, as Queens must approach more closely in order to guarantee a hit, exposing them to danger and often resulting in their death. These difficulties, combined with the added cost of unlocking Ensnare, resulted in its disppearance from competitive play.
+
+In order to encourage the use of Ensnare, we are reducing its research cost. Moreover, rather than directly making Ensnare easier to use by increasing its projectile speed, we are increasing its range. We hope that Zerg players will utilize the increased range, as well as Parasite, to maneuver just outside enemy vision and Ensnare the opponent when they are least expecting it.
+
+The effect radius adjustment was made to make the effect more accurate to its relative size in Brood War.
+
+![]({{site.baseurl}}/images/Divider_Protoss.png)
+
+- Increased Shield Battery Plasma Shields restored per second [Recharge Vital Rate]: 28 -> 36 [39.2 -> 50.4]
+
+Earlier versions of the Shield Battery were very similar to its implementation in Brood War. Over time, we replaced its rapid manual shield regeneration with a much slower automatic heal. We designed the Shield Battery this way in hopes that BW Protoss players would tend to rely on the Photon Cannon as their primary static defense, as was the case in Brood War.
+
+Unfortunately, BW Protoss can find it difficult to handle early aggression and harassment. While we hardly think these interactions are unwinnable, we do think they are somewhat unfavorable for the defender, so we are increasing the Shield Battery's regeneration rate to match its SC2 counterpart. This Shield Battery continues to retain some of its original identity, as it remains unable to restore the Plasma Shields of structures.
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-hightemplar@scbw.png" width="50" height="50"> High Templar
+- Increased Psionic Storm cast start time: 0 -> 0.25
+- Decreased Psionic Storm cast finish time: 0.5 -> 0.3125
+- High Templar can now move during the finish time.
+- Added extra visuals and sound effects when Psionic Storm is cast.
+
+These changes provide more feedback for the enemy player to react to Psionic Storm while slightly reducing the total time the Templar is locked in place if controlled properly, allowing it to get out of danger more quickly. Additionally, they alleviate a minor issue that could make it feel like Psionic Storm was cast after the Templar was killed.
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-darkarchon@scbw.png" width="50" height="50"> Dark Archon
+- Mind Control now grants all researched upgrades pertaining to the stolen unit from the targeted player permanently to the casting player, excluding weapon/armor/shields upgrades.
+- Mind Control can now target allied units.
+- Mind Control now causes stolen units to count toward the casting player's supply cap.
+
+These changes implement a few details that make Mind Control feel more similar to how it was in Brood War. (Unfortunately, technical limitations mean that we cannot currently implement a separate supply cap for each race, so 600 Supply armies will not be possible any time soon.)
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-scout@scbw.png" width="50" height="50"> Scout
+- Increased Scout anti-ground weapon attack damage: 9 -> 10
+- Decreased Scout anti-ground weapon attack damage bonus: +6 vs Light -> +5 vs Light
+
+This change matches the base anti-ground damage of the Scout with that of the Wraith.
+
+### Bug Fixes and Other Changes
+- Fixed an issue where Shield Batteries could target Interceptors.
+- Fixed an issue where Spider Mines could target burrowed Drones.
+- Fixed an issue where Spider Mines were considered priority targets for air units.
+- Fixed an issue that allowed Gateways to be built without a Nexus.
+- Fixed an issue where Forges required a Pylon instead of a Nexus for construction.
+- Fixed an issue where Reaver's weapon could go on cooldown before a scarab was built.
+- Fixed an issue with Terran Vehicle Plating hotkey.
