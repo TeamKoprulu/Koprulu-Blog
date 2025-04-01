@@ -6,7 +6,6 @@ description: Balance Update
 date:   2025-02-22 06:00:00 -0600
 image:  '/images/EvoExtension1_13.png'
 tags:   [Extension, Balance, Legacy, New Model, New Map, Bugfixes]
-featured: true
 ---
 
 ## SC Evo Complete Extension Update 1.13.3

@@ -6,7 +6,6 @@ description: Team Koprulu's 2024 Retrospective
 date:   2024-12-31 04:00:00 +0600
 image:  '/images/Retrospective.png'
 tags:   [Extension, Update]
-featured: true
 ---
 
 *Original Article written by: Sprite*
