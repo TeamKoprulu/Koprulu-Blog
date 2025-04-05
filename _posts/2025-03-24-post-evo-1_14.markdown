@@ -36,13 +36,6 @@ In previous patches, the Medic had its Heal range increased from 2 to 3 and its 
 
 These changes continue our efforts to make the Medic a more interactive unit by exposing it to more danger and providing more opportunities for opposing players to eliminate them.
 
-![]({{site.baseurl}}/images/Divider_Protoss.png)
-
-### <img src="{{site.baseurl}}/images/btn-unit-protoss-hightemplar@scbw.png" width="50" height="50"> High Templar
-- Decreased Hallucination research time: 80 -> 60 [57.1 -> 42.9]
-
-Someone please find a use for this ability I am begging on my knees
-
 ### Bug Fixes and Other Changes
 - Fixed a bug where the Vulture's weapon could fire twice in rapid succession if an attack command was timed correctly.
 - 
