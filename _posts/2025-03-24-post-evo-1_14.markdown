@@ -38,17 +38,8 @@ These changes continue our efforts to make the Medic a more interactive unit by 
 
 ### Bug Fixes and Other Changes
 - Fixed a bug where the Vulture's weapon could fire twice in rapid succession if an attack command was timed correctly.
-- 
 
 ***
-
-### <img src="{{site.baseurl}}/images/btn-unit-terran-medic.png" width="50" height="50"> Medic
-- Decreased HP healed per Energy: 2.56 -> 2.25
-    - The initial value of 2.56 was misreported in previous patch notes as 2.50.
-    - (This is implemented as increased Energy drained per HP healed [Drain Vital Cost Factor]: 0.39 -> 0.4443)
-- Decreased HP healed per second [Recharge Vital Rate]: 12 -> 9 [16.8 -> 12.6]
-
-Recently, Terran players have demonstrated that the Medic is an incredibly versatile unit. Not only does it have a powerful Heal, but its Restoration and Optic Flare have a variety of niche but powerful applications.
 
 ## SC Evo Complete Extension Update 1.14
 
