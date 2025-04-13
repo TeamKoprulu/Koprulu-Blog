@@ -3,7 +3,7 @@ layout: post
 author: HyperONE
 title:  SC Evo Complete Extension 1.15 patch notes
 description: Balance Update
-date:   2025-04-14 00:00:00 -0600
+date:   2025-04-13 00:00:00 -0600
 image:  '/images/EvoExtension1_15.png'
 tags:   [Extension, Balance, Bugfixes]
 featured: true
