@@ -49,20 +49,20 @@ We did not expect to be making this many changes at once this late into the mod'
 It falls upon us to revisit the changes made by past iterations of the balance team and address these issues arising in modern competitive play. Though many changes in Patch 1.15 share similar goals to those in previous patches, the changes here are grander in scope and magnitude.
 
 #### Major Goals
-**Restrain Terran's overwhelming power.**
+- **Restrain Terran's overwhelming power.**
 
 Despite previous nerfs, BW Terran armies remain dominant in capable hands, with the only opportunities for counterplay seemingly hinging on a mistake on the Terran player's part. Our goal for Terran this patch is to nerf their tools across the board to ensure that they are more fair and honest.
 
-**Reinvigorate Zerg.**
+- **Reinvigorate Zerg.**
 
 Top Zerg players often complain about the strength of BW Terran, yet they never hesitate to select SC2 Zerg over BW Zerg when given the chance. Why? BW Zerg is horrifically impotent. Patch 1.15 sets out to change this.
 
-**Restore Protoss's full arsenal.**
+- **Restore Protoss's full arsenal.**
 
 Accumulated QoL changes, such as making Psionic Storm more reactable by delaying the first damage tick, as well as unit reworks to better emulate Brood War designs, such as the Reaver not turning during Shuttle unload stun, have left many Protoss players feeling their tools have been unfairly degraded. A number of adjustments in this patch are aimed at restoring the original power of these units.
 
 #### Minor Goals
-**Ensure that all upgrade research entails an opportunity cost.**
+- **Ensure that all upgrade research entails an opportunity cost.**
 
 While we are, of course, concerned with ensuring that the costs of upgrades are commensurate with the effects of the technology they unlock, we also strive to ensure that each upgrade presents a choice: research this, or get something else, but not both.
 
@@ -70,7 +70,7 @@ Upgrades that cost only 50/50 are antithetical to this goal. Rather, we believe 
 
 As such, 50/50 research costs on upgrades have been eliminated. These upgrades have had their costs increased to 75/75 or 100/100. Instead, we will try to promote use of lesser-used upgrades by making them faster to research.
 
-**Standardize research costs and times.**
+- **Standardize research costs and times.**
 
 With this change, all upgrades pertaining to energy and sight range increases have had their effects and research costs and times made consistent:
 - Energy upgrades: 100/100, 80 seconds [57.1 seconds], +25 starting Energy, +50 maximum Energy
@@ -157,7 +157,7 @@ The Valkyrie seems just a bit weak. A direct combat buff does not seem feasible 
 
 The Battlecruiser no longer requires a slight cost reduction to encourage its use. The attack damage and period changes aim to reduces its fire rate to match the Battlecruiser's weapon in Brood war, while mainintaing the overall combat power of this incarnation of the Battlecruiser. While it creates the potential for more overkill, it also allows for one-shotting Drones and Probes, and increases the distance the Battlecruiser can move between attacks.
 
-Yamato Gun's Energy cost has been increased back to 125, since a cost of 100 Energy allows for storing two charges of Yamato Gun without researching Colossus Reactor, effectively rendering this upgrade useless. Ordinarily, this would not be an issue, but the previous cost of 100 Energy represented a substantial reduction from the 150 Energy cost in Brood War.
+Yamato Gun's Energy cost has been increased back to 125, since a cost of 100 Energy allows for storing two charges of Yamato Gun without researching Colossus Reactor, effectively rendering this upgrade useless. Ordinarily, this would not be an issue, but the previous cost of 100 Energy constituted a substantial reduction from the 150 Energy cost in Brood War.
 
 Lastly, Yamato Gun's damage has been increased back to 260. While we previously wanted to avoid Void Rays dying in one use of Yamato Gun, a maximum of 240 damage means SC2 Ultralisks can survive two uses of Yamato Gun. Since the Battlecruiser is one of the only units in the Terran arsenal equipped to deal with Ultralisks, we decided to prioritize this interaction instead.
 
@@ -183,7 +183,7 @@ Since no other true levers exist for adjusting BW Zerg's earlygame strength, we 
 ### <img src="{{site.baseurl}}/images/btn-unit-zerg-defiler@scbw.png" width="50" height="50"> Defiler
 - Decreased Metasynaptic Node research cost: 150/150 -> 100/100
 
-### <img src="{{site.baseurl}}/images/btn-unit-zerg-Overlord@scbw.png" width="50" height="50"> Overlord
+### <img src="{{site.baseurl}}/images/btn-unit-zerg-overlord@scbw.png" width="50" height="50"> Overlord
 - Increased sight range: 10 -> 11
 - Increased Antennae research cost: 50/50 -> 75/75
 - Increased Antennae research time: 60 -> 50 [42.9 -> 35.7]
