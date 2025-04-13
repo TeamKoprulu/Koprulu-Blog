@@ -1,0 +1,268 @@
+---
+layout: post
+author: HyperONE
+title:  SC Evo Complete Extension 1.15 patch notes
+description: Balance Update
+date:   2025-04-14 00:00:00 -0600
+image:  '/images/EvoExtension1_15.png'
+tags:   [Extension, Balance, Bugfixes]
+featured: true
+---
+
+## SC Evo Complete Extension Update 1.15
+
+Hello to all SC: Evo Complete fans,
+
+This update brings a sweeping set of balance changes.
+
+***
+
+Before we proceed with the details of this update, we once again would like thank our generous sponsors to enabling our work here. If you would like to support us, you can give us a one-time donation on PayPal or a recurring contribution on Patreon:
+
+<a href="https://paypal.me/KopruluKat/"><img src="{{site.baseurl}}/images/blue.png" width="210" height="40"></a> 
+
+<a href="https://www.patreon.com/TeamKopruluSC2"><img src="{{site.baseurl}}/images/becomeAPatronBanner.png" width="211" height="70"></a>
+
+***
+
+![]({{site.baseurl}}/images/Divider_Extension.png)
+
+### New Maps
+
+Since Update 1.14, the SC: Evo Complete mapmaker team has published four exciting additions to the melee map pool: Blue Storm, R-Point, Death Valley, and Arkanoid!
+
+![]({{site.baseurl}}/images/BlueStorm_IconProper.png)
+![]({{site.baseurl}}/images/R_Point_IconProper.png)
+![]({{site.baseurl}}/images/DeathValley_IconProper.png)
+![]({{site.baseurl}}/images/Arkanoid_IconProper.png)
+
+### Balance Changes
+
+#### Foreword
+As some of you will soon notice, these patch notes are very long. Patch 1.15 is possibly the biggest single balance update to SC: Evo Complete since Patch 1.5 last July.
+
+We did not expect to be making this many changes at once this late into the mod's lifespan, but careful observation of tournament results and metagame trends have revealed some concerning patterns:
+- Terran players are performing very well recently, with both the Brood War and StarCraft 2 factions. While some of this comes down to certain Terran players being of a higher class, we also think that there is no clear, fair way for their opponents to come out ahead in a variety of army interactions.
+- Zerg players choosing to play as Brood War of their own volition have virtually vanished.
+- Protoss players are outright abandoning certain parts of the Brood War tech tree out of the belief that they are too difficult or inconvenient to use.
+
+It falls upon us to revisit the changes made by past iterations of the balance team and address these issues arising in modern competitive play. Though many changes in Patch 1.15 share similar goals to those in previous patches, the changes here are grander in scope and magnitude.
+
+#### Major Goals
+**Restrain Terran's overwhelming power.**
+
+Despite previous nerfs, BW Terran armies remain dominant in capable hands, with the only opportunities for counterplay seemingly hinging on a mistake on the Terran player's part. Our goal for Terran this patch is to nerf their tools across the board to ensure that they are more fair and honest.
+
+**Reinvigorate Zerg.**
+
+Top Zerg players often complain about the strength of BW Terran, yet they never hesitate to select SC2 Zerg over BW Zerg when given the chance. Why? BW Zerg is horrifically impotent. Patch 1.15 sets out to change this.
+
+**Restore Protoss's full arsenal.**
+
+Accumulated QoL changes, such as making Psionic Storm more reactable by delaying the first damage tick, as well as unit reworks to better emulate Brood War designs, such as the Reaver not turning during Shuttle unload stun, have left many Protoss players feeling their tools have been unfairly degraded. A number of adjustments in this patch are aimed at restoring the original power of these units.
+
+#### Minor Goals
+**Ensure that all upgrade research entails an opportunity cost.**
+
+While we are, of course, concerned with ensuring that the costs of upgrades are commensurate with the effects of the technology they unlock, we also strive to ensure that each upgrade presents a choice: research this, or get something else, but not both.
+
+Upgrades that cost only 50/50 are antithetical to this goal. Rather, we believe it is better to make these upgrades more expensive, but also finish more quickly. Moreover, we have seen that many upgrades previously thought to be too weak are simply niche, but powerful.
+
+As such, 50/50 research costs on upgrades have been eliminated. These upgrades have had their costs increased to 75/75 or 100/100. Instead, we will try to promote use of lesser-used upgrades by making them faster to research.
+
+**Standardize research costs and times.**
+
+With this change, all upgrades pertaining to energy and sight range increases have had their effects and research costs and times made consistent:
+- Energy upgrades: 100/100, 80 seconds [57.1 seconds], +25 starting Energy, +50 maximum Energy
+- Sight range upgrades: 75/75, 50 seconds [35.7 seconds], +2 sight range
+
+There is no deeper reasoning to most energy and sight range upgrade adjustments, so we will not acknowledge most of them specifically in the notes below.
+
+*Please note: All speed and time values are provided in Normal Speed [Faster Speed]. Normal values provided are exact; Faster values are approximate.*
+
+### General Changes
+- In 1v1 games played on 4-spawn SC: Evo Complete maps, the minimap will display a ping at the cross spawn and one randomly-chosen adjacent spawn at the start of the game. The opponent is guaranteed to be located at one of the pinged spawns.
+    - The pings will last for 21 [15] seconds.
+    - (2-spawn and 3-spawn maps are unaffected.)
+
+4-spawn maps have a dark place in Legacy of the Void's history. It is well-known that on such maps, the timings which arise from a 12-worker start in StarCraft 2 often create scenarios where a player is unable to scout all possible enemy starting locations in time to defend cheese and all-in aggression. At the same time, the scouting element is integral to the experience of playing on such maps, and their layouts create unique opportunities for expansions (such as building a new main base/infrastructure in a different corner) as well as hiding proxies.
+
+This change effectively reduces the number of start locations a player must scout from 3 to 2. As such, it eliminates much of the volatility of playing on 4-spawn maps by ensuring that there is ample time to scout all possible enemy start locations with a single worker. Of course, players can still choose not to scout, but they will do so knowing that they are forgoing the possibility of acquiring complete information on their opponent's build.
+
+![]({{site.baseurl}}/images/Divider_Terran.png)
+
+- Increased Academy build time: 40.5 -> 60 [28.9 -> 42.9]
+- Increased Stimpack research time: 85 -> 75 [60.7 -> 53.6]
+
+We are not sure why the Academy ever built this quickly. The Academy's build time has been increased substantially to bring it closer to its build time in Brood War. Stimpack research time has been lowered as well. The combined effect of these changes is a further 9.5 [6.79]-second delay to the arrival of Stimpack timings, which should help to give SC2 Zerg players even more time to prepare for Stimpack Marine aggression.
+
+### <img src="{{site.baseurl}}/images/btn-unit-terran-firebat@scbw.png" width="50" height="50"> Firebat
+- Movement is now suppressed when attacking: 0 -> 0.5 [0 -> 0.36] (Core)
+
+Firebats are currently very slippery units to catch, especially with Zerglings and Banelings, and a critical mass of even a handful of Firebats can kill a functionally unlimited number of Zerglings. This change emulates the Firebat's behavior in Brood War, where it is locked in place for a short duration when attacking. This will emphasize more careful positional play with BW Terran Biological armies and give SC2 Zerg players more opportunities to surround them.
+
+### <img src="{{site.baseurl}}/images/btn-unit-terran-ghost@scbw.png" width="50" height="50"> Ghost
+- Decreased movement speed: 2.8125 -> 2.5 [3.94 -> 3.5]
+- Increased Cloak Ghost research time: 49 -> 70 [35 -> 50]
+- Decreased Moebius Reactor research cost: 150/150 -> 100/100
+- Increased Ocular Implants research cost: 50/50 -> 75/75
+- Decreased Ocular Implants research time: 60 -> 50 [42.9 -> 35.7]
+
+The Ghost's movement speed has been reduced to incentivize more careful positioning. The Cloak Ghost upgrade has also had its research time increased to be more of a "full" upgrade.
+
+### <img src="{{site.baseurl}}/images/btn-unit-terran-medic.png" width="50" height="50"> Medic
+- Decreased movement speed: 2.8125 -> 2.5 [3.94 -> 3.5]
+- Can no longer Heal units while inside a Bunker or Dropship (Core)
+- Increased Caduceus Reactor research cost: 50/50 -> 100/100
+- Increased Caduceus Reactor research time: 65 -> 80 [46.4 -> 57.1]
+- Increased Restoration research cost: 50/50 -> 100/100
+- Decreased Restoration research time: 75 -> 60 [53.6 -> 42.9]
+
+The Medic's Heal is now suppressed while inside Bunkers and Dropships, emulating its behavior in Brood War. Moreover, its movement speed has been decreased to incentivize more careful positioning, and reduce its ability to circumvent danger by simply running away after losing a fight.
+
+Restoration and Optic Flare have proven to be indispensible utilities, particularly against SC2 Terran. We think Optic Flare's research cost and time are in a good spot, and are adjusting Restoration to match.
+
+### <img src="{{site.baseurl}}/images/btn-unit-terran-goliath@scbw.png" width="50" height="50"> Goliath
+- Model size increased by 12.5%
+- Increased radius: 0.75 -> 0.875
+- Decreased anti-ground attack period: 1.425 -> 1.3125 [1.02 -> 0.94]
+- Decreased anti-air attack period: 1.375 -> 1.3125 [0.98 -> 0.94]
+- Increased Charon Boosters anti-air attack range bonus: +2 -> +3
+
+The Goliath has long been a unit that feels pathetic in small numbers, but overwhelming when massed. That is to say, it has very strong scaling. As such, we would like to enhance its performance in the early-midgame, while encouraging the use of other anti-ground and anti-air solutions in the lategame. Previous patches have done this to some extent, but we have a different approach this time.
+
+To help the Goliath better serve its early-midgame anti-air role in mech compositions, we are increasing its anti-air weapon firing rate and anti-air range bonus from Charon Boosters. In addition, we are increasing its radius, so slightly fewer Goliaths can fit in any given area and engage an enemy simultaneously. This effect is far outweighed by the benefits of faster attack period and increased range for small numbers of Goliaths, but becomes pronounced should a player attempt to field a large army of solely Goliaths.
+
+To ensure that its larger radius also does not further nerf the Goliath's current anti-ground combat capabilities, the Goliath is also receiving a compensatory anti-ground attack period reduction.
+
+### <img src="{{site.baseurl}}/images/btn-unit-terran-dropship@scbw.png" width="50" height="50"> Dropship
+- Increased cost: 100/25 -> 100/50
+- Decreased build time: 38 -> 35 [27.1 -> 25.0]
+
+The Dropship was previously given the low cost of 100/25 in order to justify maintaining its Brood War identity of a somewhat sluggish transport with low acceleration. However, cheap Dropships have resulted in the overwhelming proliferation of mass Dropship play. These changes will make such play less prevalent or more committal.
+
+### <img src="{{site.baseurl}}/images/btn-unit-terran-valkyrie@scbw.png" width="50" height="50"> Valkyrie
+- Decreased cost: 250/125 -> 200/125
+
+The Valkyrie seems just a bit weak. A direct combat buff does not seem feasible at this time, so we are adjusting its cost instead.
+
+### <img src="{{site.baseurl}}/images/btn-unit-terran-battlecruiser@scbw.png" width="50" height="50"> Battlecruiser
+- Increased attack damage: 27 -> 40
+- Increased attack period: 1.125 -> 1.675 [0.80 -> 1.20]
+- Increased cost: 375/275 -> 400/300
+- Increased Yamato Gun base damage: 180 -> 195
+    - Damage vs. Armored: 240 -> 260
+- Increased Yamato Gun Energy cost: 100 -> 125
+- Decreased Colossus Reactor research cost: 150/150 -> 100/100
+
+The Battlecruiser no longer requires a slight cost reduction to encourage its use. The attack damage and period changes aim to reduces its fire rate to match the Battlecruiser's weapon in Brood war, while mainintaing the overall combat power of this incarnation of the Battlecruiser. While it creates the potential for more overkill, it also allows for one-shotting Drones and Probes, and increases the distance the Battlecruiser can move between attacks.
+
+Yamato Gun's Energy cost has been increased back to 125, since a cost of 100 Energy allows for storing two charges of Yamato Gun without researching Colossus Reactor, effectively rendering this upgrade useless. Ordinarily, this would not be an issue, but the previous cost of 100 Energy represented a substantial reduction from the 150 Energy cost in Brood War.
+
+Lastly, Yamato Gun's damage has been increased back to 260. While we previously wanted to avoid Void Rays dying in one use of Yamato Gun, a maximum of 240 damage means SC2 Ultralisks can survive two uses of Yamato Gun. Since the Battlecruiser is one of the only units in the Terran arsenal equipped to deal with Ultralisks, we decided to prioritize this interaction instead.
+
+![]({{site.baseurl}}/images/Divider_Zerg.png)
+
+### <img src="{{site.baseurl}}/images/btn-unit-collection-drone-remastered.png" width="50" height="50"> Drone
+- Increased attack period: 1.5 -> 1.54 (Faster: 1.07 -> 1.1)
+
+This slight nerf to the Drone's attack period is just enough to discourage all-ins such as 12 Pool Drone pull despite buffs to the Zergling.
+
+### <img src="{{site.baseurl}}/images/btn-unit-zerg-zergling@scbw.png" width="50" height="50"> Zergling
+- Decreased attack period: 0.6 -> 0.57 [0.43 -> 0.407]
+
+### <img src="{{site.baseurl}}/images/btn-unit-zerg-hydralisk@scbw.png" width="50" height="50"> Hydralisk
+- Decreased attack period: 1.0312 -> 0.9375 [0.74 -> 0.67]
+- Decreased Muscular Augments research cost: 150/150 -> 100/100
+- Decreased Grooved Spines research cost: 150/150 -> 125/125
+
+BW Zerg's lack of strength stems entirely from their core units, the Zergling and the Hydralisk. Previously, it was believed that these units were too strong. However, the arrival of both stronger Terran players and developments in the SC2 Terran metagame have shown that this is not the case. In particular, the Hydralisk has to fulfill many roles in the earlygame, and its weakness has once again led to an inability for BW Zerg players to come out even in standard early-midgame interactions, as well as Hellion/Hellbat/Thor/Liberator or Glaive Adept-based timings and all-ins. Some top Zerg players report that they often feel all-in on Hydralisks even once reaching the midgame, and do not have the resources to spare on additional bases or Hive technology.
+
+Since no other true levers exist for adjusting BW Zerg's earlygame strength, we are reverting prior nerfs to the Zergling and Hydralisk attack periods. In addition, we are easing the midgame transition by making the Hydralisk's upgrades cheaper. These should drastically improve Zerg's overall combat effectiveness.
+
+### <img src="{{site.baseurl}}/images/btn-unit-zerg-defiler@scbw.png" width="50" height="50"> Defiler
+- Decreased Metasynaptic Node research cost: 150/150 -> 100/100
+
+### <img src="{{site.baseurl}}/images/btn-unit-zerg-Overlord@scbw.png" width="50" height="50"> Overlord
+- Increased sight range: 10 -> 11
+- Increased Antennae research cost: 50/50 -> 75/75
+- Increased Antennae research time: 60 -> 50 [42.9 -> 35.7]
+- Decreased Antennae sight range bonus: +3 -> +2
+
+The Overlord's sight range has long been lower than its SC2 counterpart. To maintain consistency in scouting patterns between BW and SC2 Zerg, we are increasing its sight range to match. Likewise, to maintain consistency in sight range upgrades, Antennae's sight range bonus has been reduced from +3 to +2.
+
+### <img src="{{site.baseurl}}/images/btn-unit-zerg-queen@scbw.png" width="50" height="50"> Queen
+- Increased Ensnare research cost: 50/50 -> 100/100
+- Increased Ensnare research cost: 49 -> 70 [35 -> 50]
+- Decreased Gamete Meiosis research cost: 150/150 -> 100/100
+
+With Zerg's core units being substantially stronger, we are restoring Ensnare research to its full Brood War cost of 100/100 and 50 seconds. Fully locking Ensnare behing this upgrade will ensure that Hydralisk-Queen timings do not overwhelm opponents too early, especially SC2 Zerg.
+
+![]({{site.baseurl}}/images/Divider_Protoss.png)
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-zealot@scbw.png" width="50" height="50"> Zealot
+- Increased HP: 100 -> 110
+- Decreased Plasma Shields: 65 -> 60
+
+Leg Enhancements Zealots seem to melt when running into battle. This change adds more hitpoints to the Zealot's vitals and moves some of them onto its hull, allowing for more opportunities for damage reduction via its base armor. At the same time, fewer maximum shield points can be regenerated, so its use becomes slightly more committal, especially when used as part of a 2-gate pressure opener. Lastly, this change ensures that Zealots cannot be killed by a single use of the Disruptor's Purification Nova.
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-hightemplar@scbw.png" width="50" height="50"> High Templar
+- Increased Hallucination research cost: 50/50 -> 75/75
+- Decreased Hallucination research time: 80 -> 50 [57.1 -> 35.7]
+- Decreased Psionic Storm CP - Initial Delay: 0.42 -> 0.1875 [0.3 -> 0.13]
+    - (This is the delay between the first frame of the Psionic Storm animation and the first instance of damage inflicted.)
+
+Psionic Storm previously had this delay increased, as a way to provide opponents with more time to react, since it had poor audiovisual cues. Now that it has extra visuals and sounds on cast, Psionic Storm has become more reactable, so it is appropriate to restore this delay to its original value.
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-reaver.png" width="50" height="50"> Reaver
+- Decreased unload Stun duration: 1.875 -> 1.575 [1.34 -> 1.13]
+- Reavers will now remain stationary for 3.125 [2.23] seconds after firing their last Scarab, when using Attack Move on the ground. After this duration:
+    - If the Reaver is issued an Attack Move on the ground, it will move towards that location until it finishes building a Scarab.
+    - If the Reaver is issued a target-fire command on a unit, it will maintain its distance.
+
+In <a href="https://teamkoprulu.github.io/Koprulu-Blog/post-evo-1_13">Patch 1.13</a>, the Reaver was changed so that it no longer turns to acquire targets during its unload Stun. While this matches its behavior in Brood War, many players reported to us that the additional delay introduced by the Reaver having to turn to face its targets made Reaver-Shuttle drop play feel awkward. This decrease to the Stun duration negates the delay in even the worst-case scenario where the Reaver has to turn 180 degrees to face its target, so Reaver-Shuttle play should feel smoother now.
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-observer.png" width="50" height="50"> Observer
+- Increased Gravitic Booster research cost: 50/50 -> 100/100
+- Decreased Gravitic Booster research time: 80 -> 60 [57.1 -> 42.9]
+- Increased Sensor Array research cost: 50/50 -> 75/75
+- Decreased Sensor Array research time: 90 -> 50 [64.3 -> 35.7]
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-scout@scbw.png" width="50" height="50"> Scout
+- Increased Apial Sensors research cost: 50/50 -> 75/75
+- Increased Gravitic Thrusters research cost: 50/50 -> 100/100
+- Increased Gravitic Thrusters movement speed bonus: 25% -> 25.93%
+    - (Scout movement speed after upgrade: 4.21875 → 4.2501375 [5.91 → 5.95])
+
+The slight increase to Gravitic Thruster's movement speed bonus allows the Scout to achieve movement speed parity with the Phoenix.
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-corsair.png" width="50" height="50"> Corsair
+- Increased Disruption Web research cost: 50/50 -> 100/100
+
+Disruption Web has proven to be a niche but powerful ability in the few broadcast instances of its use in tournament games, so we believe this cost better reflects its utility.
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-carrier@scbw.png" width="50" height="50"> Carrier
+- Decreased Carrier Capacity research cost: 200/200 -> 100/100
+- Decreased Carrier Capacity research time: 90 -> 80 [64.3 -> 57.1]
+
+The Carrier Capacity research cost became 200/200 as a result of previous patches which reworked Stargate tech and made the Corsair and Scout more accessible. This cost was intended to ensure that Carrier transitions did not become easier despite a cheaper Stargate and Fleet Beacon. We expected Carriers would be more prevalent, but Carrier play is rare, and certainly not anywhere near as common as Battlecruiser play.
+
+As it turns out, Carrier transitions are simply too difficult when BW Carriers only start with 4 Interceptors, and even a cheaper Stargate and Fleet Beacon do not compensate for this. Therefore, this research cost and time reduction is justified to enable Carrier play.
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-arbiter.png" width="50" height="50"> Arbiter
+- Decreased Khaydarin Amulet research cost: 150/150 -> 100/100
+- Increased Stasis Field cast range: 8 -> 9
+- Increased Stasis Field effect duration: 30 -> 46 [21.4 -> 32.9]
+
+These changes to Stasis Field revert earlier reactionary adjustments.
+
+### Bug Fixes and Other Changes
+- Command Centers can now cast the Scanner Sweep ability directly with an attached Comsat Station.
+    - Build Comsat Station default hotkey: C -> Z
+        - (This avoids conflicts with the default Scanner Sweep hotkey, C, when selecting multiple Command Centers with and without Comsat Stations at the same time.)
+- Comsat Station Scanner Sweep and Orbital Command Scanner Sweep will now attempt to use either ability when both are selected.
+- Fixed an issue where Reavers without Scarabs attempted to engage targets that attacked them.
+- Fixed an issue where large amount of Reavers could slow down the game when filled with Scarabs.
+- Fixed an issue where the Marauder's Concussive Shells slow effect was applied even if the projectile missed.
+- Fixed an issue where the Brood Lord's Broodling Strike attack dealt impact damage to units even if the attack missed.
+- Fixed an issue where SC2 Archons dealt splash damage to your own units. (Hotfixed on 6th of April)
