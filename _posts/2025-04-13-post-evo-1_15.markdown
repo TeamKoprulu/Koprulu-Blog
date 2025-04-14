@@ -224,7 +224,7 @@ Leg Enhancements Zealots seem to melt when running into battle. This change adds
 
 Psionic Storm previously had this delay increased, as a way to provide opponents with more time to react, since it had poor audiovisual cues. Now that it has extra visuals and sounds on cast, Psionic Storm has become more reactable, so it is appropriate to restore this delay to its original value.
 
-### <img src="{{site.baseurl}}/images/btn-unit-protoss-reaver.png" width="50" height="50"> Reaver
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-reaver@scbw.png" width="50" height="50"> Reaver
 - Decreased unload Stun duration: 1.875 -> 1.575 [1.34 -> 1.13]
 - Reavers will now remain stationary for 3.125 [2.23] seconds after firing their last Scarab, when using Attack Move on the ground. After this duration:
     - If the Reaver is issued an Attack Move on the ground, it will move towards that location until it finishes building a Scarab.
