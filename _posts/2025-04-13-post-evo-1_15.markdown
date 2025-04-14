@@ -88,7 +88,7 @@ While we want to avoid making the Brood War races simply more like the StarCraft
 *Please note: All speed and time values are provided in Normal Speed [Faster Speed]. Normal values provided are exact; Faster values provided are approximate.*
 ### General Changes
 - In 1v1 games played on 4-spawn SC: Evo Complete maps, the minimap will display a ping at the cross spawn and one randomly-chosen adjacent spawn at the start of the game. The opponent is guaranteed to be located at one of the pinged spawns.
-    - The pings will last for 21 [15] seconds.
+    - The pings will last for 21 seconds, regardless of the game speed setting.
     - (2-spawn and 3-spawn maps are unaffected.)
 
 4-spawn maps have a dark place in Legacy of the Void's history. It is well-known that on such maps, the timings which arise from a 12-worker start in StarCraft 2 often create scenarios where a player is unable to scout all possible enemy starting locations in time to defend cheese and all-in aggression. At the same time, the scouting element is integral to the experience of playing on such maps, and their layouts create unique opportunities for expansions (such as building a new main base/infrastructure in a different corner) as well as hiding proxies.
