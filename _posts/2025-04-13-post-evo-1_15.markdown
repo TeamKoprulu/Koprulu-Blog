@@ -202,7 +202,7 @@ Unbeknownst to many, the BW Overlord has had a lower sight range than its SC2 co
 
 ### <img src="{{site.baseurl}}/images/btn-unit-zerg-queen@scbw.png" width="50" height="50"> Queen
 - Increased Ensnare research cost: 50/50 -> 100/100
-- Increased Ensnare research cost: 49 -> 70 [35 -> 50]
+- Increased Ensnare research time: 49 -> 70 [35 -> 50]
 - Decreased Gamete Meiosis research cost: 150/150 -> 100/100
 
 With Zerg's core units being substantially stronger, we are restoring Ensnare research to its full Brood War cost of 100/100 and 50 seconds. Fully locking Ensnare behing this upgrade will ensure that Hydralisk-Queen timings do not overwhelm opponents too early, especially SC2 Zerg.
