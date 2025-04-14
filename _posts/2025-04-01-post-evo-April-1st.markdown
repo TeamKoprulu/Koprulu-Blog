@@ -6,7 +6,6 @@ description: Balance Update
 date:   2025-04-01 00:00:00 -0600
 image:  '/images/EvoApril1st.png'
 tags:   [Extension, Balance, Rebalancing, Bugfixes, Release]
-featured: true
 ---
 
 ## SC Evo Complete Project Update 2.0
