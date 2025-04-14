@@ -99,7 +99,7 @@ This change effectively reduces the number of start locations a player must scou
 ![]({{site.baseurl}}/images/Divider_Terran.png)
 
 - Increased Academy build time: 40.5 -> 60 [28.9 -> 42.9]
-- Increased Stimpack research time: 85 -> 75 [60.7 -> 53.6]
+- Decreased Stimpack research time: 85 -> 75 [60.7 -> 53.6]
 
 We are not sure why the Academy ever built this quickly. The Academy's build time has been increased substantially to bring it closer to its build time in Brood War. Stimpack research time has been lowered as well. The combined effect of these changes is a further 9.5 [6.79]-second delay to the arrival of Stimpack timings, which should help to give SC2 Zerg players even more time to prepare for Stimpack Marine aggression.
 
