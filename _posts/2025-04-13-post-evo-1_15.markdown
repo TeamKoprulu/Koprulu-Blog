@@ -276,3 +276,4 @@ These changes to Stasis Field revert earlier reactionary adjustments.
 - Fixed an issue where the Marauder's Concussive Shells slow effect was applied even if the projectile missed.
 - Fixed an issue where the Brood Lord's Broodling Strike attack dealt impact damage to units even if the attack missed.
 - Fixed an issue where SC2 Archons dealt splash damage to your own units. (Hotfixed on 6th of April)
+- Fixed an issue where Concussive weapons (Firebat, Ghost, Vulture) did not deal the correct amount of damage to Plasma Shields.
