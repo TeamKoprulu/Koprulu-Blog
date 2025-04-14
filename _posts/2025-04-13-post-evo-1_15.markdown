@@ -259,7 +259,7 @@ The Carrier Capacity research cost became 200/200 as a result of previous patche
 As it turns out, Carrier transitions are simply too difficult when BW Carriers only start with 4 Interceptors, and even a cheaper Stargate and Fleet Beacon do not compensate for this. Therefore, this research cost and time reduction is justified to enable Carrier play.
 
 ### <img src="{{site.baseurl}}/images/btn-unit-protoss-arbiter.png" width="50" height="50"> Arbiter
-- Decreased Khaydarin Amulet research cost: 150/150 -> 100/100
+- Decreased Khaydarin Core research cost: 150/150 -> 100/100
 - Increased Stasis Field cast range: 8 -> 9
 - Increased Stasis Field effect duration: 30 -> 46 [21.4 -> 32.9]
 
