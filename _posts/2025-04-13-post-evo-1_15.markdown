@@ -95,6 +95,8 @@ While we want to avoid making the Brood War races simply more like the StarCraft
 
 This change effectively reduces the number of start locations a player must scout from 3 to 2. As such, it eliminates much of the volatility of playing on 4-spawn maps by ensuring that there is ample time to scout all possible enemy start locations with a single worker. Of course, players can still choose not to scout, but they will do so knowing that they are forgoing the possibility of acquiring complete information on their opponent's build.
 
+Please note that this change does not change actual spawning behavior on 4-spawn maps. Two-thirds of all games played on 4-spawn maps will continue to feature adjacent spawns; this ping system simply eliminates the need to scout one of the two adjacent spawns.
+
 ![]({{site.baseurl}}/images/Divider_Terran.png)
 
 - Increased Academy build time: 40.5 -> 60 [28.9 -> 42.9]
