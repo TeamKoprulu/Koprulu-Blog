@@ -81,12 +81,11 @@ With this change, all upgrades pertaining to energy and sight range increases ha
 
 There is no deeper reasoning to most energy and sight range upgrade adjustments, so we will not acknowledge most of them specifically in the notes below.
 
-*Please note: All speed and time values are provided in Normal Speed [Faster Speed]. Normal values provided are exact; Faster values provided are approximate.*
-
 - **Resolve inconsistencies between the Brood War and StarCraft 2 races, where appropriate.**
 
 While we want to avoid making the Brood War races simply more like the StarCraft 2 races (we are trying to embrace their unique identities, after all), a number of changes in this patch focus on eliminating unnecessary inconsistencies we discovered while examining our multiplayer balance data. One such instance is a sight range increase to the BW Overlord, which had a lower sight range than the SC2 Overlord. Another change is a Quality-of-Life addition to the Command Center, which can now cast the Scanner Sweep ability directly when attached to a Comsat Station. Gone are the days where Terran players needed to bind Comsat Stations separately!
 
+*Please note: All speed and time values are provided in Normal Speed [Faster Speed]. Normal values provided are exact; Faster values provided are approximate.*
 ### General Changes
 - In 1v1 games played on 4-spawn SC: Evo Complete maps, the minimap will display a ping at the cross spawn and one randomly-chosen adjacent spawn at the start of the game. The opponent is guaranteed to be located at one of the pinged spawns.
     - The pings will last for 21 [15] seconds.
