@@ -154,7 +154,7 @@ The Dropship was previously given the low cost of 100/25 in order to justify mai
 The Valkyrie seems just a bit weak for its cost. However, we think its combat capabilities are well-tuned, and a buff to them does not seem feasible at this time, so we are lowering its cost instead.
 
 ### <img src="{{site.baseurl}}/images/btn-unit-terran-battlecruiser@scbw.png" width="50" height="50"> Battlecruiser
-- Increased attack damage: 27 -> 40
+- Increased attack damage: 27 -> 36
 - Increased attack period: 1.125 -> 1.675 [0.80 -> 1.20]
 - Increased cost: 375/275 -> 400/300
 - Increased Yamato Gun base damage: 180 -> 195
@@ -162,7 +162,7 @@ The Valkyrie seems just a bit weak for its cost. However, we think its combat ca
 - Increased Yamato Gun Energy cost: 100 -> 125
 - Decreased Colossus Reactor research cost: 150/150 -> 100/100
 
-The Battlecruiser no longer requires a slight cost reduction to encourage its use. The attack damage and period changes aim to reduces its fire rate to match the Battlecruiser's weapon in Brood war, while mainintaing the overall combat power of this incarnation of the Battlecruiser. While it creates the potential for more overkill, it also allows for one-shotting Drones and Probes, and increases the distance the Battlecruiser can move between attacks.
+The Battlecruiser no longer requires a slight cost reduction to encourage its use. The attack damage and period changes aim to reduces its fire rate to match the Battlecruiser's weapon in Brood war, while mainintaing the overall combat power of this incarnation of the Battlecruiser. While its overall DPS is slightly reduced and the potential of damage wasted via overkill is higher, it also increases the distance the Battlecruiser can move between attacks, allowing for more efficient kiting maneuvers.
 
 Yamato Gun's Energy cost has been increased back to 125, since a cost of 100 Energy allows for storing two charges of Yamato Gun without researching Colossus Reactor, effectively rendering this upgrade useless. This problem is unwanted, since it arises the from lowering the Energy cost greatly from its value of 150 Brood War.
 
