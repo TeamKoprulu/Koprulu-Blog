@@ -196,7 +196,7 @@ Since no other true levers exist for adjusting BW Zerg's earlygame strength, we 
 ### <img src="{{site.baseurl}}/images/btn-unit-zerg-overlord@scbw.png" width="50" height="50"> Overlord
 - Increased sight range: 10 -> 11
 - Increased Antennae research cost: 50/50 -> 75/75
-- Increased Antennae research time: 60 -> 50 [42.9 -> 35.7]
+- Dereased Antennae research time: 60 -> 50 [42.9 -> 35.7]
 - Decreased Antennae sight range bonus: +3 -> +2
 
 Unbeknownst to many, the BW Overlord has had a lower sight range than its SC2 counterpart for a long time. To maintain consistency in scouting patterns between BW and SC2 Zerg, we are increasing its sight range to match. Likewise, to maintain consistency in sight range upgrades, Antennae's sight range bonus has been reduced from +3 to +2.
