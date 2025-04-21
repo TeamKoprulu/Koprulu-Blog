@@ -111,7 +111,7 @@ We are also reverting an arbitrary unload period reduction from an old balance p
 The Corsair appears to be well-tuned in air-to-air engagements with a small-to-medium number of units. However, they seem to be overwhelmingly powerful past a certain critical mass. Although it is natural for a dedicated air-to-air splash damage unit like the Corsair to have strong scaling, we believe that the natural tendency for air units to clump in StarCraft 2's game engine is partly to blame for its incredible performance, and would like to give players opposing Corsairs slightly more leeway to reactively spread their units. As such, rather than adjusting the Corsair's base damage, we are reducing the size of its Area-of-Effect damage zones.
 
 ### <img src="{{site.baseurl}}/images/btn-unit-protoss-arbiter.png" width="50" height="50"> Arbiter
-- Increased Arbiter Tribunal cost: 250/200 -> 200/150
+- Decreased Arbiter Tribunal cost: 250/200 -> 200/150
 
 Arbiters rarely see play outside of lategame armies with Carriers. Several patches ago, the cost of the Arbiter Tribunal was previously increased by 50/50 to compensate for the cost reduction of the Stargate by 50 Vespene gas, but we would like to return the Arbiter Tribunal to its original cost to encourage more use of the Arbiter alongside Gateway-heavy styles.
 
