@@ -93,7 +93,7 @@ This change reduces what we see as a needlessly high morph cost on the Devourer,
 
 ![]({{site.baseurl}}/images/Divider_Protoss.png)
 
-### <img src="{{site.baseurl}}/images/btn-unit-protoss-shuttleSCBW.png" width="50" height="50"> Shuttle
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-ShuttleSCBW.png" width="50" height="50"> Shuttle
 - Increased cost: 150/0 -> 175/0
 - Increased unload period: 0.9 -> 1
 - Increased Gravitic Drive research cost: 100/100 -> 125/125
