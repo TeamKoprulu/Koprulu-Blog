@@ -1,0 +1,127 @@
+---
+layout: post
+author: HyperONE
+title:  SC Evo Complete Extension 1.15.1 patch notes
+description: Balance Update
+date:   2025-04-20 00:00:00 -0600
+image:  '/images/EvoExtension1_15.png'
+tags:   [Extension, Balance, Bugfixes]
+featured: true
+---
+
+## SC Evo Complete Extension Update 1.15.1
+
+Hello to all SC: Evo Complete fans,
+
+This update brings several balance changes.
+
+***
+
+Before we proceed with the details of this update, we once again would like thank our generous sponsors to enabling our work here. If you would like to support us, you can give us a one-time donation on PayPal or a recurring contribution on Patreon:
+
+<a href="https://paypal.me/KopruluKat/"><img src="{{site.baseurl}}/images/blue.png" width="210" height="40"></a> 
+
+<a href="https://www.patreon.com/TeamKopruluSC2"><img src="{{site.baseurl}}/images/becomeAPatronBanner.png" width="211" height="70"></a>
+
+***
+
+![]({{site.baseurl}}/images/Divider_Extension.png)
+
+### Balance Changes
+Many of the changes in Patch 1.15.1 are intended to complement the changes in the previous <a href="https://teamkoprulu.github.io/Koprulu-Blog/post-evo-1_15">Patch 1.15</a>. We encourage you to go refer to those patch notes as you read through this page.
+
+#### Foreword
+**We understand that there has been confusion about our changes in recent patch notes, as certain terms may be unfamiliar to some of our players. We are also aware that many of our loyal supporters are not native speakers of English, and are reading the patch notes with the help of machine translators. As such, many nerfs in previous patch notes were interpreted by some of our readers as buffs, and vice versa.**
+
+**In order to help our readers understand exactly what we mean, We would like to make a few clarifications.**
+- "Attack period" is the number of seconds which must pass after a unit attacks, before it can attack again. It is inversely related to "attack speed", which is the number of attacks a unit can perform every second.
+    - So, a decrease in attack period means an increase in attack speed.
+    - **A decrease in attack period is a buff, and an increase in attack period is a nerf.**
+- Units of time are always given in seconds. Whenever we change a unit's attack period, movement speed, movement acceleration, ability effect duration, or any other property that is affected by time, we provide the value for both Normal Game Speed and Faster Game Speed, in the format, "Normal Speed [Faster Speed]".
+    - The Normal Speed value provided is exact. This is the value contained in the StarCraft 2 game code. Although these are not the values that players see in-game, **we provide them to maintain continuity with older version patch notes (whose values were written exclusively in Normal Speed) and so those using our mod as a dependency for their own projects, as well as those with an interest in the finer details of the mod, can keep precise track of our changes.**
+    - Faster Game Speed is 1.4 times as fast as Normal Game Speed, so when loading a game on Faster Game Speed, StarCraft 2 automatically converts Normal Speed values to Faster Speed values by dividing the length of all durations by 1.4.
+    - The Faster Speed value provided is approximate. **Since all modern games default to Faster Game Speed, this is the real value for the given unit or structure statistic (e.g. attack period, build time, etc.) that players will experience in-game.**
+    - For example, a change made to the Hydralisk in Patch 1.15 was "Decreased attack period: 1.0312 -> 0.9375 [0.74 -> 0.67]".
+        - The Faster Game Speed values of [0.74 -> 0.67] mean that players will experience the Hydralisk performing one attack every 0.74 seconds, and after the change, they will experience the Hydralisk performing one attack every 0.67 seconds.
+
+Sometime in the near future, we intend to update the patch notes with functionality that will allow us to display colored text, allowing readers to more easily see at a glance whether any particular change is a buff, a nerf, or simply an adjustment.
+
+*Please note: All speed and time values below are provided in Normal Speed [Faster Speed]. Normal values provided are exact; Faster values provided are approximate.*
+
+![]({{site.baseurl}}/images/Divider_Terran.png)
+
+- Decreased Barracks build time: 70 -> 67 [50 -> 47.9]
+
+The Barracks build time was previously increased as a way to weaken the strength of Barracks timings and all-ins which build their first two Barracks at the natural entrance and attempt to intercept the first Overlord. (It also has the secondary effect of weakening proxy Barracks aggression, but that is outside the scope of this discussion.) The premise was that, since such builds were previously so threatening to SC2 Zerg, and there was no good way for them to assess BW Terran's commitment to aggression without the Overlord, this change would give the Overlord a crucial few extra seconds in order to arrive safely at a pillar.
+
+However, with the strength of Bio timings diminished, we returned to the matter of Barracks build time and conducted a thorough investigation of Overlord flight times on dozens of maps, as well as the earliest feasible timing at which Marines can arrive to kill the first scouting Overlord. Our findings were that the ~2 extra seconds of build time were not meaningful, and the few instances in which the Overlord barely survived due to this change (or barely did not survive, before it) were caused by mistakes made by either player. These included Terran build order inefficiencies, a failure of the Zerg player to immediately send the Overlord across the map at the start of the game, or the Overlord taking a less-than-direct flight path to the scouting pillar.
+
+Since the Barracks build time increase does not have the intended effect, we are reverting it. Moreover, we are dedicated to making a number of adjustments to our official maps based on these findings in the future. For example, some main mineral lines may have their mineral lines rotated as a way to influence the starting Overlord position (which is always centered in the closest tile opposite of the Hatchery from the mineral line), and we may add more conservative secondary Overlord pillar placements to certain maps if we believe that the pillars directly overlooking the natural entrance are too risky. These would provide less scouting information earlier on, but be safer and easier to reach, while still monitoring potential enemy moveouts or serving as a staging point for future Overlord scouting maneuvers.
+
+### <img src="{{site.baseurl}}/images/btn-unit-terran-goliath@scbw.png" width="50" height="50"> Goliath
+- Decreased model size by 6.67%
+    - (Collision size with other units and structures is unaffected)
+
+We previously increased the radius of the Goliath to prevent it from clumping as tightly with other units, hurting its DPS density and scaling in large numbers in exchange for improved performance in the earlygame and midgame. However, we received many complaints that the Goliath appeared a bit too large, so we are shrinking its model size. This change is purely visual and helps the Goliath appear a bit less out-of-place; its actual collision size with other units and structures is unaffected.
+
+### <img src="{{site.baseurl}}/images/btn-unit-terran-valkyrie@scbw.png" width="50" height="50"> Valkyrie
+- Decreased Attack AoE damage zone radii by 12%:
+    - 100% zone: 0.1562 -> 0.1375
+    - 50% zone: 1.562 -> 1.375
+    - 25% zone: 3.125 -> 2.75
+
+The Valkyrie appears to be well-tuned in air-to-air engagements with a small-to-medium number of units. However, they seem to be overwhelmingly powerful past a certain critical mass. Although it is natural for a dedicated air-to-air splash damage unit like the Valkyrie to have strong scaling, we believe that the natural tendency for air units to clump in StarCraft 2's game engine is partly to blame for its incredible performance, and would like to give players opposing Valkyries slightly more leeway to reactively spread their units. As such, rather than adjusting the Valkyrie's base damage, we are reducing the size of its Area-of-Effect damage zones.
+
+We plan to follow up this change with one in a future patch which initially slows the Valkyrie's missiles before they accelerate, similar to their behavior in Brood War.
+
+### <img src="{{site.baseurl}}/images/btn-unit-terran-sciencevessel@scbw.png" width="50" height="50"> Science Vessel
+- Removed Massive attribute
+
+The Science Vessel previously received the Massive attribute as a way to compensate for its strength when combined with the Battlecruiser, which was much stronger in previous patches. Now that the Battlecruiser is a bit weaker, this compensation is no longer necessary or appropriate. We hope this change will once again enable more active Science Vessel play, particularly in diving onto SC2 Zerg creep to weaken Ultralisks with Irradiate before they attack, with less fear of reprisal from Corruptors.
+
+### <img src="{{site.baseurl}}/images/btn-unit-terran-battlecruiser@scbw.png" width="50" height="50"> Battlecruiser
+- Increased attack damage bonus per weapon upgrade: +3 -> +4
+
+This change proportionately mirrors the change to base attack damage (27 -> 36) made in Patch 1.15.
+
+![]({{site.baseurl}}/images/Divider_Zerg.png)
+
+### <img src="{{site.baseurl}}/images/btn-unit-zerg-devourerex3.png" width="50" height="50"> Devourer
+- Decreased morph cost: 150/50 -> 100/50
+
+This change reduces what we see as a needlessly high morph cost on the Devourer, which pales in utility to the Guardian.
+
+![]({{site.baseurl}}/images/Divider_Protoss.png)
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-shuttleSCBW.png" width="50" height="50"> Shuttle
+- Increased cost: 150/0 -> 175/0
+- Increased unload period: 0.9 -> 1
+- Increased Gravitic Drive research cost: 100/100 -> 125/125
+
+With Shuttle play revitalized by the reduction in delay on Reaver drops and Psionic Storm, we think that these adjustments are overdue. The overall value that can be extracted from a well-controlled Shuttle simply seems too high for its current cost of only 150 minerals, so we are increasing it. Likewise, we are increasing the cost of Gravitic Drive to better reflect what we see as its true value. Notably, this new cost matches that of Scarab Damage research.
+
+We are also reverting an arbitrary unload period reduction from an old balance patch, bringing the Shuttle's unloading speed back in line with that of other transports.
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-corsair.png" width="50" height="50"> Corsair
+- Decreased Attack AoE damage zone radii by 12%:
+    - 100% zone: 0.1562 -> 0.1375
+    - 50% zone: 1.562 -> 1.375
+    - 25% zone: 3.125 -> 2.75
+
+The Corsair appears to be well-tuned in air-to-air engagements with a small-to-medium number of units. However, they seem to be overwhelmingly powerful past a certain critical mass. Although it is natural for a dedicated air-to-air splash damage unit like the Corsair to have strong scaling, we believe that the natural tendency for air units to clump in StarCraft 2's game engine is partly to blame for its incredible performance, and would like to give players opposing Corsairs slightly more leeway to reactively spread their units. As such, rather than adjusting the Corsair's base damage, we are reducing the size of its Area-of-Effect damage zones.
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-arbiter.png" width="50" height="50"> Arbiter
+- Increased Arbiter Tribunal cost: 250/200 -> 200/150
+
+Arbiters rarely see play outside of lategame armies with Carriers. Several patches ago, the cost of the Arbiter Tribunal was previously increased by 50/50 to compensate for the cost reduction of the Stargate by 50 Vespene gas, but we would like to return the Arbiter Tribunal to its original cost to encourage more use of the Arbiter alongside Gateway-heavy styles.
+
+### Bug Fixes and Other Changes
+- Command Centers with an attached Comsat Station no longer display an energy bar.
+    - This is intended to prevent players from mistakenly targeting the Command Center with energy-draining abilities instead of the Comsat Station.
+- Increased the duration of minimap pings to 30 seconds (for all game speeds).
+- Adjusted the color of minimap pings from red to green.
+- Fixed an issue where minimap pings on 4-spawn maps would appear at all possible enemy start locations instead of 2 of them.
+
+### Ongoing Known Bugs
+*(these will be fixed at a later date)*
+- Fixed an issue where minimap pings on 4-spawn maps would not appear at all on certain official SC: Evo Complete maps.
