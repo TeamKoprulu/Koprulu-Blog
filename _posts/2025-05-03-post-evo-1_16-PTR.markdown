@@ -1,0 +1,320 @@
+---
+layout: post
+author: HyperONE
+title:  SC Evo Complete PTR 1.13 patch notes
+description: Balance Update
+date:   2025-02-09 12:00:00 -0600
+image:  '/images/EvoPTR1_13.png'
+tags:   [PTR, Extension, Balance]
+---
+
+## SC Evo Complete PTR 1.13 patch notes
+
+Hello to all SC: Evo Complete fans,
+
+Welcome 
+
+
+
+***
+
+Before we proceed with the details of this PTR update, we once again would like thank our generous sponsors to enabling our work here. If you would like to support us, you can give us a one-time donation on PayPal or a recurring contribution on Patreon:
+
+<a href="https://paypal.me/KopruluKat/"><img src="{{site.baseurl}}/images/blue.png" width="210" height="40"></a> 
+
+<a href="https://www.patreon.com/TeamKopruluSC2"><img src="{{site.baseurl}}/images/becomeAPatronBanner.png" width="211" height="70"></a>
+
+***
+
+![]({{site.baseurl}}/images/Divider_Extension.png)
+
+### Balance Changes
+
+#### Foreword
+
+#### Goals
+- **Goal 1**
+
+- **Goal 2**
+
+- **Goal 3**
+
+### General Changes
+
+![]({{site.baseurl}}/images/Divider_Terran.png)
+
+### <img src="{{site.baseurl}}/images/btn-unit-terran-scv@scbw.png" width="50" height="50"> SCV
+
+{: .tip }
+Buffs:
+- Buff 1
+
+{: .warning }
+Adjustments:
+- Adjustment 1
+
+{: .caution }
+Nerfs:
+- Nerf 1
+
+### <img src="{{site.baseurl}}/images/btn-unit-terran-marine@scbw.png" width="50" height="50"> Marine
+
+### <img src="{{site.baseurl}}/images/btn-unit-terran-firebat@scbw.png" width="50" height="50"> Firebat
+
+{: .tip }
+Buffs:
+- Buff 1
+
+{: .warning }
+Adjustments:
+- Adjustment 1
+
+{: .caution }
+Nerfs:
+- Nerf 1
+
+### <img src="{{site.baseurl}}/images/btn-unit-terran-vulture@scbw.png" width="50" height="50"> Vulture
+
+{: .tip }
+Buffs:
+- Buff 1
+
+{: .warning }
+Adjustments:
+- Adjustment 1
+
+{: .caution }
+Nerfs:
+- Nerf 1
+
+### <img src="{{site.baseurl}}/images/btn-unit-terran-siegetank-sieged@scbw.png" width="50" height="50"> Siege Tank
+
+{: .tip }
+Buffs:
+- Buff 1
+
+{: .warning }
+Adjustments:
+- Adjustment 1
+
+{: .caution }
+Nerfs:
+- Nerf 1
+
+### <img src="{{site.baseurl}}/images/btn-unit-terran-goliath@scbw.png" width="50" height="50"> Goliath
+
+{: .tip }
+Buffs:
+- Buff 1
+
+{: .warning }
+Adjustments:
+- Adjustment 1
+
+{: .caution }
+Nerfs:
+- Nerf 1
+
+### <img src="{{site.baseurl}}/images/btn-unit-terran-wraith@scbw.png" width="50" height="50"> Wraith
+
+{: .tip }
+Buffs:
+- Buff 1
+
+{: .warning }
+Adjustments:
+- Adjustment 1
+
+{: .caution }
+Nerfs:
+- Nerf 1
+
+### <img src="{{site.baseurl}}/images/btn-unit-terran-sciencevessel@scbw.png" width="50" height="50"> Science Vessel
+
+{: .tip }
+Buffs:
+- Buff 1
+
+{: .warning }
+Adjustments:
+- Adjustment 1
+
+{: .caution }
+Nerfs:
+- Nerf 1
+
+### <img src="{{site.baseurl}}/images/btn-unit-terran-battlecruiser@scbw.png" width="50" height="50"> Battlecruiser
+
+{: .tip }
+Buffs:
+- Buff 1
+
+{: .warning }
+Adjustments:
+- Adjustment 1
+
+{: .caution }
+Nerfs:
+- Nerf 1
+
+![]({{site.baseurl}}/images/Divider_Zerg.png)
+
+### <img src="{{site.baseurl}}/images/btn-unit-zerg-lurker@scbw.png" width="50" height="50"> Lurker
+
+{: .tip }
+Buffs:
+- Buff 1
+
+{: .warning }
+Adjustments:
+- Adjustment 1
+
+{: .caution }
+Nerfs:
+- Nerf 1
+
+### <img src="{{site.baseurl}}/images/btn-unit-zerg-mutalisk@scbw.png" width="50" height="50"> Mutalisk
+
+{: .tip }
+Buffs:
+- Buff 1
+
+{: .warning }
+Adjustments:
+- Adjustment 1
+
+{: .caution }
+Nerfs:
+- Nerf 1
+
+![]({{site.baseurl}}/images/Divider_Protoss.png)
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-zealot@scbw.png" width="50" height="50"> Zealot
+
+{: .tip }
+Buffs:
+- Buff 1
+
+{: .warning }
+Adjustments:
+- Adjustment 1
+
+{: .caution }
+Nerfs:
+- Nerf 1
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-hightemplar@scbw.png" width="50" height="50"> High Templar
+
+{: .tip }
+Buffs:
+- Buff 1
+
+{: .warning }
+Adjustments:
+- Adjustment 1
+
+{: .caution }
+Nerfs:
+- Nerf 1
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-darktemplar.png" width="50" height="50"> Dark Templar
+
+{: .tip }
+Buffs:
+- Buff 1
+
+{: .warning }
+Adjustments:
+- Adjustment 1
+
+{: .caution }
+Nerfs:
+- Nerf 1
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-darkarchon@scbw.png" width="50" height="50"> Dark Archon
+
+{: .tip }
+Buffs:
+- Buff 1
+
+{: .warning }
+Adjustments:
+- Adjustment 1
+
+{: .caution }
+Nerfs:
+- Nerf 1
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-observer.png" width="50" height="50"> Observer
+
+{: .tip }
+Buffs:
+- Buff 1
+
+{: .warning }
+Adjustments:
+- Adjustment 1
+
+{: .caution }
+Nerfs:
+- Nerf 1
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-reaver@scbw.png" width="50" height="50"> Reaver
+
+{: .tip }
+Buffs:
+- Buff 1
+
+{: .warning }
+Adjustments:
+- Adjustment 1
+
+{: .caution }
+Nerfs:
+- Nerf 1
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-scout@scbw.png" width="50" height="50"> Scout
+
+{: .tip }
+Buffs:
+- Buff 1
+
+{: .warning }
+Adjustments:
+- Adjustment 1
+
+{: .caution }
+Nerfs:
+- Nerf 1
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-corsair.png" width="50" height="50"> Corsair
+
+{: .tip }
+Buffs:
+- Buff 1
+
+{: .warning }
+Adjustments:
+- Adjustment 1
+
+{: .caution }
+Nerfs:
+- Nerf 1
+
+### <img src="{{site.baseurl}}/images/btn-unit-protoss-carrier@scbw.png" width="50" height="50"> Carrier
+
+{: .tip }
+Buffs:
+- Buff 1
+
+{: .warning }
+Adjustments:
+- Adjustment 1
+
+{: .caution }
+Nerfs:
+- Nerf 1
+
+### Bug Fixes and Other Changes
+- Bug Fix 1
+    - Explanation 1
