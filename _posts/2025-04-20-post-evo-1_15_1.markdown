@@ -128,16 +128,19 @@ Arbiters rarely see play outside of lategame armies with Carriers. Several patch
 
 ### Test
 
-{: .tip } Buffs:
-- Buff 1
-- Buff 2
-- Buff 3
+{: .tip }
+  - Buffs:
+    - Buff 1
+    - Buff 2
+    - Buff 3
 
-{: .warning } Adjustments:
-- Adjustment 1
-- Adjustment 2
+{: .warning }
+  - Adjustments:
+    - Adjustment 1
+    - Adjustment 2
 
-{: .caution } Nerfs:
-- Nerf 1
-- Nerf 2
-- Nerf 3
+{: .caution }
+  - Nerfs:
+    - Nerf 1
+    - Nerf 2
+    - Nerf 3
