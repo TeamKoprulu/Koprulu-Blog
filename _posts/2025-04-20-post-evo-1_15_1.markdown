@@ -125,22 +125,3 @@ Arbiters rarely see play outside of lategame armies with Carriers. Several patch
 ### Ongoing Known Bugs
 *(these will be fixed at a later date)*
 - Fixed an issue where minimap pings on 4-spawn maps would not appear at all on certain official SC: Evo Complete maps.
-
-### Test
-
-{: .tip }
-  - Buffs:
-    - Buff 1
-    - Buff 2
-    - Buff 3
-
-{: .warning }
-  - Adjustments:
-    - Adjustment 1
-    - Adjustment 2
-
-{: .caution }
-  - Nerfs:
-    - Nerf 1
-    - Nerf 2
-    - Nerf 3
